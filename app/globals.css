@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+a {
+  margin: 0;
+  font-family: var(--font-montserrat);
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.mobile_nav a {
+  padding-bottom: 10px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+h2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #2c2c2c;
+  font-family: var(--font-boogaloo);
+}
+.footer-subtext {
+  font-family: var(--font-boogaloo);
+}
+h1 {
+  font-family: var(--font-boogaloo);
+}
+p, span {
+  font-family: var(--font-montserrat);
+}
+h3 {
+  white-space: nowrap;
+  font-family: var(--font-montserrat);
+}
+.animated-text h3 {
+  transition: all 1.6s ease-out;
+  -webkit-transition: all 1.6s ease-out;
+  -moz-transition: all 1.6s ease-out;
+  -ms-transition: all 1.6s ease-out;
+  -o-transition: all 1.6s ease-out;
+}
+.animated-text-translate {
+  transform: translateY(-85.5%);
+  -webkit-transform: translateY(-85.5%);
+  -moz-transform: translateY(-85.5%);
+  -ms-transform: translateY(-85.5%);
+  -o-transform: translateY(-85.5%);
+}
+  .program-card {
+    flex: 0 0 calc(70%);
   }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.expert-cards .expert-card {
+  flex: 0 0 calc(100%/3.2 - 40px*2/3.2);
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .animated-text-translate {
+     transform: translateY(-85.5%);
+  -webkit-transform: translateY(-85.5%);
+  -moz-transform: translateY(-85.5%);
+  -ms-transform: translateY(-85.5%);
+  -o-transform: translateY(-85.5%);
+  }
+  .expert-cards .expert-card {
+  flex: 0 0 calc(100%/1.2 - 20px/1.2);
+ }
+ .blog-card {
+  flex: 0 0 calc(70%);
+}
+.outcome_mob_img {
+  flex: 0 0 calc(100%/1.01 - 16px/1.01);
+  width: calc(100%/1.01 - 16px/1.01);
+}
+}
+@media (max-width: 385px) {
+  .outcome_txts h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
