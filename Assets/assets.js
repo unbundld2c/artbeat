@@ -28,6 +28,14 @@ import outcomeMob5 from './outcomeMob5.png';
 import blogImage from './blogImage.png';
 import FooterDesk from './footer-desk.png';
 import FooterMob from './footer-mob.png';
+import visionImage from './vision-img.png';
+import missionImage from './mission-img.png';
+import differenceImage from './difference-img.png';
+import Guide1 from "./guide1.png";
+import Guide2 from "./guide2.png";
+import Guide3 from "./guide3.png";
+import Guide4 from "./guide4.png";
+import Guide5 from "./guide5.png";
 
 export const assets = {
     logo,
@@ -59,5 +67,13 @@ export const assets = {
     outcomeMob5,
     blogImage,
     FooterDesk,
-    FooterMob
+    FooterMob,
+    visionImage,
+    missionImage,
+    differenceImage,
+    Guide1,
+    Guide2,
+    Guide3,
+    Guide4,
+    Guide5
 };
