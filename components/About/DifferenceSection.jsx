@@ -12,7 +12,7 @@ const DifferenceImage = () => {
         reverse={true}
       >
         {/* Text in left */}
-        <p className="text-[#2C2C2C md:text-[18px] md:text-left text-center text-[16px] md:leading-[30px] leading-[24px]">
+        <p className="text-[#2C2C2C] md:text-[20px] md:text-left text-center text-[16px] md:leading-[34px] leading-[24px]">
           Artbeat is distinguished by being neither a clinical therapy nor a
           traditional art class but a child-centric well-being program that
           integrates music, visual arts, writing, and storytelling with
