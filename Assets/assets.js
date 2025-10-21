@@ -36,6 +36,14 @@ import Guide2 from "./guide2.png";
 import Guide3 from "./guide3.png";
 import Guide4 from "./guide4.png";
 import Guide5 from "./guide5.png";
+import CareTech1 from "./care-tech1.webp";
+import CareTech2 from "./care-tech2.webp";
+import CareTech3 from "./care-tech3.webp";
+import TeamMember1 from "./teamMember1.webp";
+import TeamMember2 from "./teamMember2.webp";
+import TeamMember3 from "./teamMember3.webp";
+import TeamMember4 from "./teamMember4.webp";
+import joinUs from "./joinUs.webp";
 
 export const assets = {
     logo,
@@ -75,5 +83,13 @@ export const assets = {
     Guide2,
     Guide3,
     Guide4,
-    Guide5
+    Guide5,
+    CareTech1,
+    CareTech2,
+    CareTech3,
+    TeamMember1,
+    TeamMember2,
+    TeamMember3,
+    TeamMember4,
+    joinUs
 };

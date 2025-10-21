@@ -12,7 +12,7 @@ const MissionSection = () => {
         reverse={false}
       >
         {/* Text on Right */}
-        <div className="text-[#2C2C2C md:text-[18px] text-[16px] md:text-left text-center md:leading-[30px] leading-[24px] space-y-4">
+        <div className="text-[#2C2C2C] md:text-[20px] text-[16px] md:text-left text-center md:leading-[30px] leading-[24px] space-y-4">
             <p>
                 To provide safe, inclusive, and engaging creative arts
                 experiences—rooted in evidence-based practices—that help children
