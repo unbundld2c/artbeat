@@ -4,16 +4,16 @@ import Image from "next/image";
 const teamMembers = [
   {
     name: "Supriya Iyengar",
-    role: "Founder",
+    role: "Founding Member",
     imgSrc: assets.TeamMember1,
   },
   {
-    name: "Pallavi Goswami",
-    role: "Founding Member",
+    name: "Ekta Sethi",
+    role: "Founder",
     imgSrc: assets.TeamMember2,
   },
   {
-    name: "Gurekta Sethi",
+    name: "Pallavi J. Goswami",
     role: "Founding Member",
     imgSrc: assets.TeamMember3,
   },
