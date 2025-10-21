@@ -29,7 +29,7 @@ const blogs = [
 const BlogsSection = () => (
   <section className="max-w-[1500px] mx-auto md:my-[60px] my-[42px]">
     <h2 className="md:mb-[40px] mb-[24px] text-center">Blogs</h2>
-    <div className="flex  md:flex-row no-scrollbar overflow-x-auto md:justify-center md:px-[60px] px-[20px] md:gap-[60px] gap-[20px]">
+    <div className="flex md:flex-row no-scrollbar overflow-x-auto md:justify-center md:px-[60px] px-[20px] md:gap-[60px] gap-[20px]">
       {blogs.map((blog, idx) => (
         <div key={idx} className="blog-card flex-1 flex flex-col overflow-hidden bg-white">
           <div className="w-full">
@@ -54,8 +54,8 @@ const BlogsSection = () => (
     <div className="flex justify-center md:mt-[40px] mt-[24px]">
       <Link href="/coming-soon" className="bg-[#E2725B] rounded-[60px] text-white font-medium md:text-[18px] md:leading-[18px] text-[16px] leading-[16px] py-[10px] px-[20px] flex items-center gap-[10px]">
         Read more <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-<path d="M22.5 12C22.5 17.5228 18.0228 22 12.5 22C6.97715 22 2.5 17.5228 2.5 12C2.5 6.47715 6.97715 2 12.5 2C18.0228 2 22.5 6.47715 22.5 12Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15.5001 12.0001H8.5M13.0002 8.5C13.0002 8.5 16.5001 11.0777 16.5001 12C16.5001 12.9224 13.0002 15.5 13.0002 15.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 12C22.5 17.5228 18.0228 22 12.5 22C6.97715 22 2.5 17.5228 2.5 12C2.5 6.47715 6.97715 2 12.5 2C18.0228 2 22.5 6.47715 22.5 12Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.5001 12.0001H8.5M13.0002 8.5C13.0002 8.5 16.5001 11.0777 16.5001 12C16.5001 12.9224 13.0002 15.5 13.0002 15.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
       </Link>
     </div>
