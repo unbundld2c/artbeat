@@ -45,6 +45,12 @@ import TeamMember3 from "./teamMember3.webp";
 import TeamMember4 from "./teamMember4.webp";
 import joinUs from "./joinUs.webp";
 import reportsHero1 from "./report-banner1.png";
+import ImpactOverviewImage from "./impact-overview-img.png"; 
+import ImpactChildren from "./impact-children.png";
+import ImpactTeachers from "./impact-teachers.png";
+import ImpactSchools from "./impact-schools.png";
+import ImpactWhyChildren from "./impact-why-children.png";
+import ImpactCollage from "./impact-collage.png";
 
 export const assets = {
     logo,
@@ -94,4 +100,10 @@ export const assets = {
     TeamMember4,
     joinUs,
     reportsHero1,
+    ImpactOverviewImage,
+    ImpactChildren,
+    ImpactTeachers,
+    ImpactSchools,
+    ImpactWhyChildren,
+    ImpactCollage
 };
