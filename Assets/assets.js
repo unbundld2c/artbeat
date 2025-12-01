@@ -44,6 +44,7 @@ import TeamMember2 from "./teamMember2.webp";
 import TeamMember3 from "./teamMember3.webp";
 import TeamMember4 from "./teamMember4.webp";
 import joinUs from "./joinUs.webp";
+import reportsHero1 from "./report-banner1.png";
 
 export const assets = {
     logo,
@@ -91,5 +92,6 @@ export const assets = {
     TeamMember2,
     TeamMember3,
     TeamMember4,
-    joinUs
+    joinUs,
+    reportsHero1,
 };
