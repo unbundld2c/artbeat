@@ -41,7 +41,7 @@ const BlogsSection = () => (
             />
           </div>
           <div className="py-[16px] px-[16px]">
-            <h3 className="text-[#2C2C2C] font-semibold md:text-[20px] md:leading-[26px] text-[16px] leading-[20px]">{blog.title}</h3>
+            <h3 className="text-[#2C2C2C]  font-semibold md:text-[20px] md:leading-[26px] text-[16px] leading-[20px]" style={{ whiteSpace: "normal"}}>{blog.title}</h3>
             <p className="text-[#6B6B6B] font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] pt-[4px] pb-[12px]">{blog.desc}</p>
             <div className="flex justify-between items-center font-semibold text-sm">
               <span className="text-[#2C2C2C] font-bold md:text-[16px] text-[14px] md:leading-[24px] leading-[21px]">{blog.date}</span>
