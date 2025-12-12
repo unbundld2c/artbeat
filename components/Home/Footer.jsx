@@ -141,7 +141,7 @@ const Footer = () => {
                   />
                 </svg>
                 <span className="text-[#212121] md:text-[16px] md:[16px] text-[14px]">
-                   artbeat@gmail.com
+                  contact@artbeat.space
                 </span>
               </div>
               <div className="flex items-center gap-[18px] max-md:justify-center max-md:max-w-[90%]">
