@@ -41,26 +41,26 @@ export default function ReportsPage() {
     ];
 
     const leftSections = [
-        { title: "Executive Director's Reports", list: executiveReports },
-        { title: "Audited Financial Statements", list: ["Dummy PDF 1", "Dummy PDF 2"] },
-        { title: "FCRA Statements", list: ["FCRA Report 1", "FCRA Report 2"] },
-        { title: "Other Reports", list: ["Other Report A", "Other Report B"] },
-        { title: "Documents", list: ["Document 1", "Document 2"] },
+        { title: "Executive Director's Reports", list: ["Details will be available soon."] },
+        { title: "Audited Financial Statements", list: ["Details will be available soon."] },
+        { title: "Other Reports", list: ["Details will be available soon."] },
+        { title: "Documents", list: ["Details will be available soon."] },
     ];
 
     const rightSections = [
         {
-            title: "Donate",
+            title: "Join Us",
             text: "Join the thousands of individuals who contribute monthly to help every child.",
         },
         {
-            title: "Volunteer with us",
-            text: "Opportunities exist to empower you as a change maker.",
-        },
-        {
-            title: "Donate books!",
+            title: "Donate",
             text: "Help spread the joy of reading by donating books.",
         },
+        {
+            title: "Volunteer",
+            text: "Opportunities exist to empower you as a change maker.",
+        },
+        
     ];
 
     return (
@@ -132,7 +132,7 @@ export default function ReportsPage() {
                         {/* RIGHT SIDE */}
                         <div>
                             <div className="bg-black py-2 px-4">
-                                <h2 className="font-bold !text-[#FFEDCE]">BE THE CHANGE!</h2>
+                                <h2 className="font-bold !text-[#FFEDCE] text-[18px] md:text-[22px]!">let's do Nourish a Child's Future: Support ArtBeat.</h2>
                             </div>
 
                             <div className="space-y-1">
@@ -160,14 +160,14 @@ export default function ReportsPage() {
                                 })}
 
                                 {/* CERTIFICATE IMAGE */}
-                                <div className="flex justify-center mt-6">
+                                {/* <div className="flex justify-center mt-6">
                                     <img
                                         src="https://i0.wp.com/www.katha.org/wp-content/uploads/2022/04/GSN-852-PLATINUM.png?resize=150%2C150&ssl=1"
                                         width={150}
                                         height={150}
                                         alt="Certificate"
                                     />
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

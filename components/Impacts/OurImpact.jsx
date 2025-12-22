@@ -25,12 +25,10 @@ const OurImpact = () => {
               alt="Children Illustration"
               width={200}
               height={200}
-              className="mb-[20px] h-full object-cover"
+              className="mb-[20px] h-full"
               unoptimized
             />
-            <h2 className="text-[32px] md:text-[36px] font-bold text-[#4BA3C7] mb-[10px]">
-              2.4 million
-            </h2>
+            
             <p className="text-[16px] md:text-[18px] font-medium text-[#333]">
               Children
             </p>
@@ -43,12 +41,9 @@ const OurImpact = () => {
               alt="Teachers Illustration"
               width={200}
               height={200}
-              className="mb-[20px] h-full object-cover"
+              className="mb-[20px] h-full"
               unoptimized
             />
-            <h2 className="text-[32px] md:text-[36px] font-bold text-[#4BA3C7] mb-[10px]">
-              150,000+
-            </h2>
             <p className="text-[16px] md:text-[18px] font-medium text-[#333]">
               Teachers
             </p>
@@ -61,12 +56,9 @@ const OurImpact = () => {
               alt="Schools Illustration"
               width={200}
               height={200}
-              className="mb-[20px] h-full object-cover"
+              className="mb-[20px] h-full"
               unoptimized
             />
-            <h2 className="text-[32px] md:text-[36px] font-bold text-[#4BA3C7] mb-[10px]">
-              22,000+
-            </h2>
             <p className="text-[16px] md:text-[18px] font-medium text-[#333]">
               Schools
             </p>

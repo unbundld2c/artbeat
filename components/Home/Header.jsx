@@ -25,13 +25,15 @@ const Header = () => {
             </div>
 
             {/* Logo */}
+            <Link href="/">
             <Image src={assets.logo} alt="artbeat" className="h-8 w-auto" />
+            </Link>
           </div>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-[44px] text-[#2C2C2C] text-[18px] leading-[27px] font-medium">
             <Link href="/" className="hover:text-green-900">Home</Link>
-            <Link href="/coming-soon" className="hover:text-green-900">Programs</Link>
+            <Link href="/programs" className="hover:text-green-900">Programs</Link>
             <Link href="/about" className="hover:text-green-900">About us</Link>
             <Link href="/coming-soon" className="hover:text-green-900">Testimonials</Link>
             <Link href="/coming-soon" className="hover:text-green-900">News</Link>

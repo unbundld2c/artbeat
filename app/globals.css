@@ -20,7 +20,7 @@ h2 {
 h1 {
   font-family: var(--font-boogaloo);
 }
-p, span {
+p, span,li {
   font-family: var(--font-montserrat);
 }
 h3 {

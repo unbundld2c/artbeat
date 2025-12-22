@@ -1,0 +1,48 @@
+import React from "react";
+
+export default function BenefitsOfArtbeat() {
+  const benefits = [
+    {
+      title: "Boosted Academic Performance",
+      description: "Strengthening foundational literacy and numeracy."
+    },
+    {
+      title: "Essential Life Skills",
+      description: "Developing resilience, grit, and motivation."
+    },
+    {
+      title: "Improved School Engagement",
+      description: "Leading to increased attendance."
+    },
+    {
+      title: "Creating Effective Learners",
+      description: "Cultivating well-rounded and successful students."
+    }
+  ];
+
+  return (
+    <section className="w-full max-md:pt-[40px] py-[0] md:py-16 px-[16px] md:px-[60px]">
+      <div className="max-w-[1500px] mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-[40px]">
+          The Benefits of Artbeat
+        </h2>
+
+        <div className="flex gap-[24px] md:gap-[40px] flex-wrap">
+          {benefits.map((item, index) => (
+            <div
+              key={index}
+              className="flex-[0_0_calc(100%/2-24px/2)] md:flex-[0_0_calc(100%/4-40px*3/4)] flex flex-col bg-[#FFFAEB] md:p-[20px] p-[16px] md:rounded-[20px] rounded-[16px]"
+            >
+              <h3 className="text-[18px] md:text-[24px] leading-[140%] font-bold mb-4 text-left whitespace-normal! text-[#e2725b]">
+                {item.title}
+              </h3>
+              <p className="text-[16px] md:text-[20px] text-[#000] leading-relaxed text-left">
+                {item.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
