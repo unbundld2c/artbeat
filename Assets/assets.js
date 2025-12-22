@@ -123,5 +123,5 @@ export const assets = {
   Implementation4,
   Implementation5,
   Implementation6,
-  Aaroh 
+  Aaroh
 };
