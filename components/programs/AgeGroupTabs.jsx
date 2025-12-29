@@ -8,7 +8,7 @@ const AgeGroupTabs = ({ data }) => {
   const activeContent = data.find((item) => item.id === activeTab);
 
   return (
-    <div className="w-full max-w-5xl mx-auto p-6 font-sans text-[#5A4B41] bg-[#FFF9F0]">
+    <div className="w-full  mx-auto p-6 font-sans text-[#5A4B41] bg-[#FFF9F0]">
       {/* Tab Header */}
       <div className="flex flex-wrap items-center gap-4 mb-10">
         <h3 className="text-xl font-bold mr-2">Select Preferred Age Group :</h3>

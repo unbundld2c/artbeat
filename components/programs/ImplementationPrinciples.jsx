@@ -51,11 +51,11 @@ const ImplementationPrinciples = () => {
         {/* Flexbox Grid Container */}
         <div className="flex flex-nowrap overflow-x-auto no-scrollbar max-md:px-[16px] md:flex-wrap gap-[20px] md:gap-[40px]">
           {principles.map((principle, index) => (
-              <div className="bg-[#FFF9F0] rounded-[10px] md:rounded-[12px] py-[20px] px-[12px] flex flex-col items-center text-center flex-[0_0_85%] md:flex-[0_0_calc(100%/3-40px*2/3)]">
+              <div key={index} className="bg-[#FFF9F0] rounded-[10px] md:rounded-[12px] py-[20px] px-[12px] flex flex-col items-center text-center flex-[0_0_85%] md:flex-[0_0_calc(100%/3-40px*2/3)]">
                 {/* Illustration Placeholder */}
                 <div className="h-40 w-full flex mb-[12px]">
                   <img 
-                    src={typeof principle.image === 'object' ? principle.image.src : principle.image} 
+                    src={principle.image.src} 
                 alt={principle.alt}
                     className="max-h-full object-contain"
                   />

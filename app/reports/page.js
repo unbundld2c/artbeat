@@ -132,7 +132,7 @@ export default function ReportsPage() {
                         {/* RIGHT SIDE */}
                         <div>
                             <div className="bg-black py-2 px-4">
-                                <h2 className="font-bold !text-[#FFEDCE] text-[18px] md:text-[22px]!">let's do Nourish a Child's Future: Support ArtBeat.</h2>
+                                <h2 className="font-bold !text-[#FFEDCE] text-[18px] md:text-[22px]!">Let&apos;s do Nourish a Child&apos;s Future: Support ArtBeat.</h2>
                             </div>
 
                             <div className="space-y-1">
