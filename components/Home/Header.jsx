@@ -26,7 +26,7 @@ const Header = () => {
 
             {/* Logo */}
             <Link href="/">
-            <Image src={assets.logo} alt="artbeat" className="h-8 w-auto" />
+              <Image src={assets.logo} alt="artbeat" className="h-8 w-auto" />
             </Link>
           </div>
 
@@ -37,7 +37,7 @@ const Header = () => {
             <Link href="/about" className="hover:text-green-900">About us</Link>
             <Link href="/coming-soon" className="hover:text-green-900">Testimonials</Link>
             <Link href="/coming-soon" className="hover:text-green-900">News</Link>
-            <Link href="/coming-soon" className="hover:text-green-900">Contact us</Link>
+            <Link href="/contact-us" className="hover:text-green-900">Contact us</Link>
           </nav>
 
           {/* Join Us Button */}

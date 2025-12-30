@@ -60,6 +60,17 @@ import Implementation4 from "./program-page/implementation4.png";
 import Implementation5 from "./program-page/implementation5.png";
 import Implementation6 from "./program-page/implementation6.png";
 import Aaroh from"./program-page/aaroh.webp";
+import Akshar from"./program-page/akshar.webp";
+import orangeBgShape from "./program-page/orange-bg-shape.png";
+import greenBgShape from "./program-page/green-bg-shape.png";
+import yellowBgShape from "./program-page/yellow-bg-shape.png";
+import blueBgShape from "./program-page/blue-bg-shape.png";
+import StakeholderChild from "./program-page/stakeholder-child.png";
+import StakeholderParents from "./program-page/stakeholder-parents.png";
+import StakeholderTeachers from "./program-page/stakeholder-teachers.png";
+import StakeholderSchools from "./program-page/stakeholder-schools.png";
+import StakeholderCommunity from "./program-page/stakeholder-community.png";
+import ContactUsHero from "./contact-us-hero.webp"
 
 export const assets = {
   logo,
@@ -124,4 +135,15 @@ export const assets = {
   Implementation5,
   Implementation6,
   Aaroh,
+  Akshar,
+  orangeBgShape,
+  greenBgShape,
+  yellowBgShape,
+  blueBgShape,
+  StakeholderChild,
+  StakeholderParents,
+  StakeholderTeachers,
+  StakeholderSchools,
+  StakeholderCommunity,
+  ContactUsHero
 };

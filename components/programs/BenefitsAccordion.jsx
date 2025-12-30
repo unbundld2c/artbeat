@@ -5,18 +5,22 @@ import { ChevronDown } from 'lucide-react';
 const BenefitsAccordion = ({ benefits }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
+  if (!Array.isArray(benefits) || benefits.length === 0) {
+    return null;
+  }
+
   const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-6 bg-[#FFF9F0]">
-      <h2 className="text-[#E97451] text-2xl font-bold mb-6">Benefits</h2>
-      
+    <div className="w-full mx-auto">
+      <h3 className="text-[#E97451] text-[20px] font-bold mb-6">Benefits</h3>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {benefits.map((item, index) => {
           const isOpen = openIndex === index;
-          
+
           return (
             <div key={index} className="flex flex-col">
               {/* Header / Button */}
@@ -27,17 +31,17 @@ const BenefitsAccordion = ({ benefits }) => {
                 }`}
               >
                 <span className="font-semibold text-[#5A4B41]">{item.title}</span>
-                <ChevronDown 
+                <ChevronDown
                   className={`w-5 h-5 text-gray-400 transition-transform duration-500 ease-in-out ${
                     isOpen ? 'rotate-180' : ''
-                  }`} 
+                  }`}
                 />
               </button>
-              
+
               {/* Content Area using CSS Grid for perfect smoothness */}
-              <div 
+              <div
                 className={`grid transition-[grid-template-rows,opacity] duration-500 ease-in-out bg-white border-x border-gray-200 ${
-                  isOpen 
+                  isOpen
                     ? 'grid-rows-[1fr] opacity-100 border-b rounded-b-lg' 
                     : 'grid-rows-[0fr] opacity-0 border-b-0'
                 }`}
