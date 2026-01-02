@@ -70,7 +70,11 @@ import StakeholderParents from "./program-page/stakeholder-parents.png";
 import StakeholderTeachers from "./program-page/stakeholder-teachers.png";
 import StakeholderSchools from "./program-page/stakeholder-schools.png";
 import StakeholderCommunity from "./program-page/stakeholder-community.png";
-import ContactUsHero from "./contact-us-hero.webp"
+import ContactUsHero from "./contact-us-hero.webp";
+import RnEBanner from "./RnE-banner.webp";
+import ProbCtxt1 from "./prob-ctxt1.webp";
+import ProbCtxt2 from "./prob-ctxt2.webp";
+import ProbCtxt3 from "./prob-ctxt3.webp";
 
 export const assets = {
   logo,
@@ -145,5 +149,9 @@ export const assets = {
   StakeholderTeachers,
   StakeholderSchools,
   StakeholderCommunity,
-  ContactUsHero
+  ContactUsHero,
+  RnEBanner,
+  ProbCtxt1,
+  ProbCtxt2,
+  ProbCtxt3
 };

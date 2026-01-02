@@ -90,7 +90,7 @@ export default function ReportsPage() {
                         {/* LEFT SIDE */}
                         <div className="md:col-span-2">
                             <p className="text-lg mb-4">
-                                To know more about how we work, please go through our reports below.
+                                We believe in full transparency. Review our leadership profiles, financial performance, and documented success stories below.
                             </p>
 
                             {leftSections.map((sec, i) => {
@@ -132,7 +132,7 @@ export default function ReportsPage() {
                         {/* RIGHT SIDE */}
                         <div>
                             <div className="bg-black py-2 px-4">
-                                <h2 className="font-bold !text-[#FFEDCE] text-[18px] md:text-[22px]!">Let&apos;s do Nourish a Child&apos;s Future: Support ArtBeat.</h2>
+                                <h2 className="font-bold !text-[#FFEDCE] text-[18px] md:text-[22px]!">Nourish a Child&apos;s Future: Support us.</h2>
                             </div>
 
                             <div className="space-y-1">

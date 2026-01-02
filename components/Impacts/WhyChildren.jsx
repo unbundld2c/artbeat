@@ -14,7 +14,7 @@ export default function WhyChildren() {
               </h2>
 
               <p className="text-[#2C2C2C] text-[16px] md:text-[18px] leading-[26px] md:leading-[30px] mb-[24px] max-w-[550px]">
-                The children we serve. We founded ArtBeat because we recognised
+                We founded Artbeat because we recognised
                 the incredible, innate brilliance present in every classroom,
                 and we are committed to removing the barriers preventing those
                 young minds from reaching their fullest potential—academically,
