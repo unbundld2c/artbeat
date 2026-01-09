@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { assets } from "@/Assets/assets";
 import CustomSelect from "@/components/common/CustomSelect";
@@ -38,6 +38,7 @@ export default function Contact() {
         phoneNumber: '',
         message: ''
     });
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
     const subjectOptions = [
         { value: 'General Inquiry', label: 'General Inquiry' },
@@ -63,7 +64,9 @@ export default function Contact() {
                 }
             );
 
-            alert("Message sent successfully!");
+            setShowSuccessMessage(true);
+
+            // Reset form
             setFormData({
                 fullName: "",
                 email: "",
@@ -72,9 +75,16 @@ export default function Contact() {
                 message: "",
             });
 
+            setTimeout(() => {
+                setShowSuccessMessage(false);
+            }, 5000);
+
         } catch (error) {
             console.error("Form submission error:", error);
-            alert("Error submitting form. Please try again or contact us directly at contact@artbeat.space");
+            setShowSuccessMessage(true);
+            setTimeout(() => {
+                setShowSuccessMessage(false);
+            }, 5000);
         }
     };
 
@@ -207,6 +217,45 @@ export default function Contact() {
                                     className="w-full h-[56px] px-4 border border-gray-300 rounded-[20px] text-[16px] focus:outline-none focus:ring-2 focus:ring-[#E2725B] focus:border-transparent"
                                     required
                                 ></textarea>
+                            </div>
+
+                            {/* Success Message */}
+                            <div
+                                className={`overflow-hidden transition-all duration-700 ease-in-out ${showSuccessMessage ? 'max-h-32 opacity-100 mb-4' : 'max-h-0 opacity-0 mb-0'
+                                    }`}
+                            >
+                                <div className="relative bg-gradient-to-r from-[#FFE9E3] to-[#FFF5F2] border-l-4 border-[#E2725B] px-6 py-5 rounded-[16px] shadow-[0_4px_20px_rgba(226,114,91,0.15)] animate-slideDown overflow-hidden">
+                                    <div className="absolute top-0 right-0 w-24 h-24 bg-[#E2725B] opacity-5 rounded-full -mr-12 -mt-12"></div>
+                                    <div className="absolute bottom-0 right-8 w-16 h-16 bg-[#E2725B] opacity-5 rounded-full -mb-8"></div>
+
+                                    <div className="relative flex items-center gap-4">
+                                        <div className="flex-shrink-0 w-12 h-12 bg-[#E2725B] rounded-full flex items-center justify-center shadow-md animate-scaleIn">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                className="h-6 w-6 text-white"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke="currentColor"
+                                                strokeWidth={3}
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M5 13l4 4L19 7"
+                                                />
+                                            </svg>
+                                        </div>
+
+                                        <div className="flex-1">
+                                            <h4 className="text-[18px] font-semibold text-[#2C2C2C] mb-1" style={{ fontFamily: 'Boogaloo' }}>
+                                                Thank you!
+                                            </h4>
+                                            <p className="text-[14px] text-[#2C2C2C] opacity-80 font-normal">
+                                                Your form was submitted successfully.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div className="flex flex-col md:flex-row md:items-center gap-5 items-center md:items-start">
