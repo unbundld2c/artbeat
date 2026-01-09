@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const REHeroSection = () => {
     return (
-        <section className="max-w-[1500px] mx-auto">
+        <section className="w-full overflow-hidden">
             <div className="flex flex-col md:hidden bg-gradient-to-b from-[rgba(255,245,215,0.89)] to-white">
                 <div className="w-full flex justify-center">
                     <Image
@@ -33,17 +33,17 @@ const REHeroSection = () => {
 
             <div className="hidden md:flex relative h-[600px] items-center bg-[linear-gradient(270deg,rgba(255,255,255,0)_34.24%,rgba(255,245,215,0.89)_47.03%)]">
                 <div className="relative pl-[60px] max-w-[700px] z-10">
-                    <h1 className="text-[52px] leading-[52px] text-[#2C2C2C] font-[500] mb-[36px]">
-                        Creative arts are not a hobby but a high-impact, evidence-based tool for nurturing the whole child.
-                    </h1>
+                        <h1 className="text-[52px] leading-[52px] text-[#2C2C2C] font-[500] mb-[36px]">
+                            Creative arts are not a hobby but a high-impact, evidence-based tool for nurturing the whole child.
+                        </h1>
 
-                    <Link
-                        href="/coming-soon"
-                        className="bg-[#E2725B] inline-flex items-center text-white px-[20px] py-[12px] rounded-[60px] text-[18px] leading-[18px]"
-                    >
-                        Learn More
-                    </Link>
-                </div>
+                        <Link
+                            href="/coming-soon"
+                            className="bg-[#E2725B] inline-flex items-center text-white px-[20px] py-[12px] rounded-[60px] text-[18px] leading-[18px]"
+                        >
+                            Learn More
+                        </Link>
+                    </div>
 
                 <div className="absolute right-0 top-0 h-full flex items-center">
                     <Image

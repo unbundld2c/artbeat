@@ -47,10 +47,35 @@ export default function Contact() {
         { value: 'Other', label: 'Other' }
     ];
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
-        // add form submission logic here
+
+        try {
+            const body = new URLSearchParams(formData).toString();
+            const response = await fetch(
+                "https://script.google.com/macros/s/AKfycbzZ1yzva3fSwRGSzVYY22lPTU4CrPUHuCU5iPKsQovLdzPHyK-BVmRlnLnUpsqsPAUzUw/exec",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                    body,
+                }
+            );
+
+            alert("Message sent successfully!");
+            setFormData({
+                fullName: "",
+                email: "",
+                subject: "General Inquiry",
+                phoneNumber: "",
+                message: "",
+            });
+
+        } catch (error) {
+            console.error("Form submission error:", error);
+            alert("Error submitting form. Please try again or contact us directly at contact@artbeat.space");
+        }
     };
 
     const handleChange = (e) => {
