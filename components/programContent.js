@@ -140,8 +140,266 @@ export const programContent = [
                 ],
             },
         ],
+    },
 
+    {
+        id: "aakaar",
+        bgColor: "#F0F8FF",
+        iwt: {
+            title: "Aakar — Visual Arts Pedagogy Program Description",
+            illustrationUrl: assets.Aaroh,
+            description:
+                "Aakar is an immersive, process-oriented visual arts program that invites learners to engage in nonverbal communication, self-discovery, and cognitive growth through creative practice. By exploring diverse art mediums—from drawing and painting to sculpture and mixed media—learners develop expressive fluency, metaphorical thinking, and emotional resilience in a therapeutic and inspiring setting.",
+            sections: [
+                {
+                    heading: "Cognitive and Emotional Foundations",
+                    content:
+                        "Research indicates that engaging with visual arts significantly enhances spatial reasoning, fine motor skills, and problem-solving abilities. Crucially, it serves as a powerful medium for emotional regulation and communication, especially in processing complex feelings that words often fail to capture. Aakar's curriculum is built on a trauma-informed framework and positive psychology, providing a secure space where learners can translate inner experiences into visible form. This process fosters self-awareness, reduces stress, and promotes holistic emotional and cognitive well-being.",
+                },
+                {
+                    heading: "Visual Arts Forms and Modes Explored",
+                    content:
+                        "In Aakar, learners experiment with varied art forms matched to their developmental stage, focusing on the process of creation as much as the final product:",
+                    listItems: [
+                        { description: "Dry & Wax Media: Utilizing Oil Crayons, pastels, and charcoal to explore blending, layering, and tactile pressure." },
+                        { description: "Fluid Media: Experimenting with Tempera for bold, opaque expression and Watercolors for transparency, flow, and emotional release." },
+                        { description: "Mixed Media & Collage: Combining found objects, papers, and textures to encourage problem-solving and the integration of diverse ideas." },
+                        { description: "Three-Dimensional Art: Engaging with clay and recycled elements to explore spatial awareness and metaphorical representation." },
+                        { description: "Reflective & Narrative Art: A core practice where learners engage in verbal or written reflection on what they created and why, connecting their work to their inner world." },
+                        { description: "Collaborative & Community Art: Working on Collaborative Murals and group installations to build shared vision and collective identity." },
+                    ],
+                },
+                {
+                    content: "Learners are encouraged to view art as a language—one they can use to process information, generate unique solutions, and articulate their personal narrative without the pressure of verbal performance.",
+                },
+                {
+                    heading: "Unique Aspects of Aakar",
+                    content: "",
+                    listItems: [
+                        { description: "Prioritizes Process Over Product: The focus is on the therapeutic value of creation, encouraging self-discovery and risk-taking without judgment." },
+                        { description: "Utilizes a Trauma-Informed Framework: Practices ensure a feeling of emotional safety and trust, allowing for vulnerable self-expression and gentle emotional processing through art." },
+                        { description: "Emphasizes Nonverbal Communication: Aakar provides a critical alternative pathway for expression, particularly for learners who struggle with verbal articulation or complex emotions." },
+                        { description: "Adopts a Whole Child Framework: The program supports cognitive, emotional, social, and aesthetic development through integrated, hands-on learning experiences." },
+                        { description: "Fosters Metaphorical Thinking: Learners use materials and artistic choices to externalize, understand, and metaphorically address internal and external challenges." },
+                        { description: "Incorporates SEL Principles (Casel & NEP 2024): Activities are designed to build self-management, responsible decision-making, and relationship skills through shared creative engagement and reflection." },
+                    ],
+                },
+                {
+                    content: "Aakar empowers learners to discover the artistic language of the self, using visual creation as a profound tool for mental clarity, emotional healing, and building lifelong well-being.",
+                },
+            ],
+        },
 
+        ageGroups: [
+            {
+                id: "3-5",
+                label: "Age 3-5",
+                curriculumOverview: "In collaboration with ArtSparks Foundation, this curriculum introduces early learners (ages 3-5) to:",
+                curriculumList: [
+                    "Sensory exploration using high-tactile materials like oil crayons and tempera.",
+                    "Foundational motor skill development through playful experimentation with color and shape.",
+                    "Introductory reflection, helping children begin to name the 'feeling' of their artwork.",
+                    "Collaborative play through shared paper and group mark-making.",
+                ],
+                goalsTitle: "",
+                goalsList: [
+                    "Sensory Discovery: Explore the 'smush' of oil crayons and the 'flow' of tempera paint.",
+                    "Develop Fine Motor Control: Practice 'pincer' grips with brushes and tools.",
+                    "Begin Reflective Practice: Use simple prompts to help children explain what their colors represent (e.g., 'This yellow is my happy sun').",
+                    "Foster Social Interaction: Participate in collaborative art where peers share a single large canvas to build early cooperation.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Enhanced emotional intelligence and self-regulation.",
+                            "Improved focus and cognitive development.",
+                            "Cultural awareness and appreciation.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "A turn-key music curriculum aligned with NEP goals.",
+                            "Supports holistic student development.",
+                            "Easy integration into existing schedules.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Regular updates on child's musical progress.",
+                            "Tools to support emotional bonding at home.",
+                            "A safe space for creative expression.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Comprehensive lesson plans and resources.",
+                            "Professional development workshops.",
+                            "Structured frameworks for assessment.",
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "6-8",
+                label: "Age 6-8",
+                curriculumOverview: "This curriculum, supported by the ArtSparks pedagogy, introduces young children (ages 6-8) to:",
+                curriculumList: [
+                    "Foundational techniques in watercolor and collage layering.", 
+                    "Purposeful creation, moving from 'messy play' to intentional storytelling.",
+                    "Reflective dialogue, encouraging learners to think about their choices of color and form.",
+                    "Structured collaboration through group murals and shared projects.",
+                ],
+                goalsTitle: "",
+                goalsList: [
+                    "Master Material Basics: Learn the difference between the opacity of tempera and the transparency of watercolors.", 
+                    "Build Narrative through Collage: Use collage to piece together personal stories and 'identity maps'.",
+                    "Enhance Reflective Thinking: Introduce 'The Artist’s Why'—a short reflection on why they chose specific materials to express a specific mood.", 
+                    "Cultivate Teamwork: Work on collaborative art pieces that require negotiation and shared space.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Enhanced emotional intelligence and self-regulation.",
+                            "Improved focus and cognitive development.",
+                            "Cultural awareness and appreciation.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "A turn-key music curriculum aligned with NEP goals.",
+                            "Supports holistic student development.",
+                            "Easy integration into existing schedules.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Regular updates on child's musical progress.",
+                            "Tools to support emotional bonding at home.",
+                            "A safe space for creative expression.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Comprehensive lesson plans and resources.",
+                            "Professional development workshops.",
+                            "Structured frameworks for assessment.",
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "9-12",
+                label: "Age 9-12",
+                curriculumOverview: "This curriculum emphasizes developing a:",
+                curriculumList: [
+                    "Strong personal voice using advanced mixed media and oil crayon techniques.", 
+                    "Deep reflective practice, utilizing the ArtSparks framework to use art as a mirror for self-identity.",
+                    "Advanced collaboration, where students co-create art that addresses community themes.",
+                    "Technical mastery of layering and blending across different fluid and dry media.",
+                ],
+                goalsTitle: "",
+                goalsList: [
+                    "Explore Technical Contrast: Use oil crayons as a resist for watercolors to explore complex visual textures.", 
+                    "Deepen Reflective Art: Maintain an 'Artist Journal' to document the 'What' (technique) and 'Why' (emotional intent) of every piece.",
+                    "Promote Problem Solving: Use collage and mixed media to 'repair' or transform mistakes into new ideas.", 
+                    "Support Social Resilience: Lead collaborative art projects that require empathy and group problem-solving.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Enhanced emotional intelligence and self-regulation.",
+                            "Improved focus and cognitive development.",
+                            "Cultural awareness and appreciation.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "A turn-key music curriculum aligned with NEP goals.",
+                            "Supports holistic student development.",
+                            "Easy integration into existing schedules.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Regular updates on child's musical progress.",
+                            "Tools to support emotional bonding at home.",
+                            "A safe space for creative expression.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Comprehensive lesson plans and resources.",
+                            "Professional development workshops.",
+                            "Structured frameworks for assessment.",
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "13-15",
+                label: "Age 13-15",
+                curriculumOverview: "This curriculum for ages 13-15 focuses on:",
+                curriculumList: [
+                    "Sophisticated advocacy through conceptual mixed media and large-scale murals.",
+                    "Critical reflection, analyzing the intersection of personal narrative and social issues.",
+                    "Mastery of the 'Why', using watercolors, tempera, and collage as tools for psychological expression.",
+                    "Leadership in art, guided by ArtSparks principles to lead collaborative initiatives that leave a mark on their community.",
+                ],
+                goalsTitle: "",
+                goalsList: [
+                    "Refine Visual Mastery: Use oil crayons and tempera for high-impact, professional-grade expressive works.", 
+                    "Integrate Critical Reflection: Produce 'Artist Statements' that delve into the symbolism and social commentary within their work.",
+                    "Foster Advocacy: Use collaborative art to address social justice, environmental, or identity-based themes.",
+                    "Support Mental Well-being: Utilize reflective art as a lifelong tool for processing adolescent transitions and stress.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Enhanced emotional intelligence and self-regulation.",
+                            "Improved focus and cognitive development.",
+                            "Cultural awareness and appreciation.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "A turn-key music curriculum aligned with NEP goals.",
+                            "Supports holistic student development.",
+                            "Easy integration into existing schedules.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Regular updates on child's musical progress.",
+                            "Tools to support emotional bonding at home.",
+                            "A safe space for creative expression.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Comprehensive lesson plans and resources.",
+                            "Professional development workshops.",
+                            "Structured frameworks for assessment.",
+                        ],
+                    },
+                ],
+            },
+        ],
     },
 
     {

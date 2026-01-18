@@ -4,12 +4,50 @@ import { assets } from "@/Assets/assets";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import DropdownMenu from "./DropdownMenu";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Navigation menu structure
+  const navigationMenu = [
+    {
+      title: "About Us",
+      items: [
+        { label: "Our Story", href: "/about" },
+        { label: "Reports and Financials", href: "/reports" },
+        { label: "Blogs", href: "/blogs" },
+      ],
+    },
+    {
+      title: "Programs",
+      items: [
+        { label: "Core Concepts", href: "/programs" },
+        { label: "Aaroh", href: "/programs#aaroh" },
+        { label: "Aakaar", href: "/programs#aakaar" },
+        { label: "Akshar", href: "/programs#akshar" },
+        { label: "Varna", href: "/programs#varna" },
+        { label: "Echoes", href: "/echoes" },
+      ],
+    },
+    {
+      title: "Impact",
+      items: [
+        { label: "Overview", href: "/impacts" },
+        { label: "Research and Evidence", href: "/research-evidence" },
+      ],
+    },
+    {
+      title: "Collaborate",
+      items: [
+        { label: "Contact Us", href: "/contact-us" },
+        { label: "Partners", href: "/partners" },
+      ],
+    },
+  ];
+
   return (
-    <header className="bg-[#FFF9EE]">
+    <header className="bg-[#FFF9EE] relative z-50">
       <div className="max-w-14xl mx-auto px-4 sm:px-6 lg:px-[60px]">
         <div className="flex justify-between items-center h-[76px]">
           {/* Left side (mobile hamburger + logo) */}
@@ -32,12 +70,13 @@ const Header = () => {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-[44px] text-[#2C2C2C] text-[18px] leading-[27px] font-medium">
-            <Link href="/" className="hover:text-green-900">Home</Link>
-            <Link href="/programs" className="hover:text-green-900">Programs</Link>
-            <Link href="/about" className="hover:text-green-900">About us</Link>
-            <Link href="/coming-soon" className="hover:text-green-900">Testimonials</Link>
-            <Link href="/coming-soon" className="hover:text-green-900">News</Link>
-            <Link href="/contact-us" className="hover:text-green-900">Contact us</Link>
+            {navigationMenu.map((menu, index) => (
+              <DropdownMenu
+                key={index}
+                title={menu.title}
+                items={menu.items}
+              />
+            ))}
           </nav>
 
           {/* Join Us Button */}
@@ -54,13 +93,15 @@ const Header = () => {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden bg-[#fffdf6] border-t border-gray-200 px-[20px] py-[20px] space-y-4 absolute w-[100%] z-[99] mobile_nav ">
-          <a href="#" className="block text-gray-700 hover:text-green-900">Home</a>
-          <a href="#" className="block text-gray-700 hover:text-green-900">Programs</a>
-          <a href="#" className="block text-gray-700 hover:text-green-900">About us</a>
-          <a href="#" className="block text-gray-700 hover:text-green-900">Testimonials</a>
-          <a href="#" className="block text-gray-700 hover:text-green-900">News</a>
-          <a href="#" className="block text-gray-700 hover:text-green-900">Contact us</a>
+        <div className="md:hidden bg-[#fffdf6] border-t border-gray-200 px-[20px] py-[20px] space-y-4 absolute w-[100%] z-[99] mobile_nav">
+          {navigationMenu.map((menu, index) => (
+            <DropdownMenu
+              key={index}
+              title={menu.title}
+              items={menu.items}
+              isMobile={true}
+            />
+          ))}
         </div>
       )}
     </header>

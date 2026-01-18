@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   margin: 0;
   font-family: var(--font-montserrat);

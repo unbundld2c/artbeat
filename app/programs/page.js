@@ -24,6 +24,7 @@ export default function Home() {
       {programContent.map((program) => (
         <section
           key={program.id}
+          id={program.id}
           style={{ backgroundColor: program.bgColor }}
           className="max-w-[1500px] mx-0 md:mx-[60px] my-[60px] md:my-[92px] p-[16px] md:p-[40px] rounded-[20px]"
         >
