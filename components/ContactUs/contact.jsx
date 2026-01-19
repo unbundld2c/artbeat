@@ -30,7 +30,13 @@ const EmailIcon = () => (
 //     </svg>
 // );
 
-export default function Contact() {
+export default function Contact({
+    showBusinessEnquiries = true,
+    customImage = null,
+    showDivider = true,
+    showMap = true,
+    showImageOnMobile = true
+}) {
     const [formData, setFormData] = useState({
         fullName: '',
         email: '',
@@ -104,12 +110,12 @@ export default function Contact() {
 
     return (
         <section className="w-full py-[40px] md:py-[60px] bg-white">
-            <div className="max-w-[1500px] mx-auto px-[16px] md:px-[60px]">
+            <div className="max-w-[1500px] mx-auto px-[16px] md:my-[20px] md:px-[60px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-                    <div className="flex flex-col">
-                        <div className="relative w-full aspect-[4/3] rounded-[12px] overflow-hidden mb-6">
+                    <div className={`flex flex-col ${showImageOnMobile ? '' : 'max-md:hidden'}`}>
+                        <div className="relative w-full h-full min-h-[400px] rounded-[12px] overflow-hidden mb-6">
                             <Image
-                                src={assets.ContactUsHero}
+                                src={customImage || assets.ContactUsHero}
                                 alt="Contact Us"
                                 fill
                                 className="object-cover"
@@ -117,23 +123,25 @@ export default function Contact() {
                             />
                         </div>
 
-                        <div>
-                            <p className="text-[16px] md:text-[24px] text-[#2C2C2C] font-normal mb-3" style={{ fontFamily: 'Boogaloo' }}>
-                                For Business Enquiries
-                            </p>
-                            <a
-                                href="mailto:artbeat@gmail.com"
-                                className="flex items-center justify-between text-[16px] md:text-[18px] text-[#212121] font-medium hover:opacity-80 group"
-                            >
-                                <div className="flex items-center gap-3">
-                                    <EmailIcon />
-                                    <span className="underline">contact@artbeat.space</span>
-                                </div>
-                                <span className="transition-transform group-hover:translate-x-1">
-                                    <ArrowIcon />
-                                </span>
-                            </a>
-                        </div>
+                        {showBusinessEnquiries && (
+                            <div>
+                                <p className="text-[16px] md:text-[24px] text-[#2C2C2C] font-normal mb-3" style={{ fontFamily: 'Boogaloo' }}>
+                                    For Business Enquiries
+                                </p>
+                                <a
+                                    href="mailto:artbeat@gmail.com"
+                                    className="flex items-center justify-between text-[16px] md:text-[18px] text-[#212121] font-medium hover:opacity-80 group"
+                                >
+                                    <div className="flex items-center gap-3">
+                                        <EmailIcon />
+                                        <span className="underline">contact@artbeat.space</span>
+                                    </div>
+                                    <span className="transition-transform group-hover:translate-x-1">
+                                        <ArrowIcon />
+                                    </span>
+                                </a>
+                            </div>
+                        )}
                     </div>
 
                     {/* Right Side - Form */}
@@ -258,7 +266,7 @@ export default function Contact() {
                                 </div>
                             </div>
 
-                            <div className="flex flex-col md:flex-row md:items-center gap-5 items-center md:items-start">
+                            <div className="flex flex-col-reverse md:flex-row gap-5 items-start">
                                 <button
                                     type="submit"
                                     className="w-[200px] h-[44px] bg-[#E2725B] text-white rounded-[60px] text-[16px] font-medium hover:bg-[#d66550] transition-colors"
@@ -266,7 +274,7 @@ export default function Contact() {
                                     Get in Touch
                                 </button>
 
-                                <p className="text-[16px] text-[#2C2C2C] leading-[150%] font-normal text-center md:text-left">
+                                <p className="text-[16px] text-[#2C2C2C] leading-[150%] font-normal">
                                     Your privacy is important to us. We never share personal information.
                                 </p>
                             </div>
@@ -276,45 +284,49 @@ export default function Contact() {
             </div>
 
             {/* Divider Line */}
-            <div className="max-w-[1500px] mx-auto px-[16px] md:px-[60px] mt-[60px]">
-                <div className="w-full h-[1px] bg-[#000000]"></div>
-            </div>
+            {showDivider && (
+                <div className="max-w-[1500px] mx-auto px-[16px] md:px-[60px] mt-[60px]">
+                    <div className="w-full h-[1px] bg-[#000000]"></div>
+                </div>
+            )}
 
-            <div className="max-w-[1500px] mx-auto px-[16px] md:px-[60px] mt-[60px]">
-                <div className="flex flex-row items-start justify-between gap-4 md:gap-6 mb-5">
-                    <div className="flex flex-col gap-2">
-                        <h2 className="leading-[100%] text-[#2C2C2C] font-normal">
-                            Meet us Here
-                        </h2>
-                        <p className="text-[#2C2C2C] leading-[150%] font-normal">
-                            Bangalore, India
-                        </p>
+            {showMap && (
+                <div className="max-w-[1500px] mx-auto px-[16px] md:px-[60px] mt-[60px]">
+                    <div className="flex flex-row items-start justify-between gap-4 md:gap-6 mb-5">
+                        <div className="flex flex-col gap-2">
+                            <h2 className="leading-[100%] text-[#2C2C2C] font-normal">
+                                Meet us Here
+                            </h2>
+                            <p className="text-[#2C2C2C] leading-[150%] font-normal">
+                                Bangalore, India
+                            </p>
+                        </div>
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Bangalore,India"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-[150px] h-[36px] md:w-[200px] md:h-[44px] bg-[#E2725B] text-white rounded-[60px] text-[16px] font-medium hover:bg-[#d66550] transition-colors flex items-center justify-center flex-shrink-0"
+                        >
+                            Get Directions
+                        </a>
                     </div>
 
-                    <a
-                        href="https://www.google.com/maps/search/?api=1&query=Bangalore,India"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-[150px] h-[36px] md:w-[200px] md:h-[44px] bg-[#E2725B] text-white rounded-[60px] text-[16px] font-medium hover:bg-[#d66550] transition-colors flex items-center justify-center flex-shrink-0"
-                    >
-                        Get Directions
-                    </a>
+                    {/* Google Map Embed */}
+                    <div className="w-full aspect-[16/9] md:aspect-[21/9] rounded-[12px] overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps?q=Bangalore,India&output=embed"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Bangalore Location Map"
+                        ></iframe>
+                    </div>
                 </div>
-
-                {/* Google Map Embed */}
-                <div className="w-full aspect-[16/9] md:aspect-[21/9] rounded-[12px] overflow-hidden">
-                    <iframe
-                        src="https://www.google.com/maps?q=Bangalore,India&output=embed"
-                        width="100%"
-                        height="100%"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        title="Bangalore Location Map"
-                    ></iframe>
-                </div>
-            </div>
+            )}
         </section>
     );
 }

@@ -59,8 +59,8 @@ import Implementation3 from "./program-page/implementation3.png";
 import Implementation4 from "./program-page/implementation4.png";
 import Implementation5 from "./program-page/implementation5.png";
 import Implementation6 from "./program-page/implementation6.png";
-import Aaroh from"./program-page/aaroh.webp";
-import Akshar from"./program-page/akshar.webp";
+import Aaroh from "./program-page/aaroh.webp";
+import Akshar from "./program-page/akshar.webp";
 import orangeBgShape from "./program-page/orange-bg-shape.png";
 import greenBgShape from "./program-page/green-bg-shape.png";
 import yellowBgShape from "./program-page/yellow-bg-shape.png";
@@ -75,6 +75,13 @@ import RnEBanner from "./RnE-banner.webp";
 import ProbCtxt1 from "./prob-ctxt1.webp";
 import ProbCtxt2 from "./prob-ctxt2.webp";
 import ProbCtxt3 from "./prob-ctxt3.webp";
+import PartnerHero from "./partners-hero.webp";
+import PartnerVision from "./partners-vision.webp";
+import WhyPartner from "./why-partners.webp";
+import PartnerContact from "./partners-contact.webp";
+import PartnerLogo1 from "./partners-logo1.webp";
+import PartnerLogo2 from "./partners-logo2.webp";
+import PartnerLogo3 from "./partners-logo3.webp";
 
 export const assets = {
   logo,
@@ -153,5 +160,12 @@ export const assets = {
   RnEBanner,
   ProbCtxt1,
   ProbCtxt2,
-  ProbCtxt3
+  ProbCtxt3,
+  PartnerHero,
+  PartnerVision,
+  WhyPartner,
+  PartnerContact,
+  PartnerLogo1,
+  PartnerLogo2,
+  PartnerLogo3
 };
