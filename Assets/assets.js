@@ -82,6 +82,13 @@ import PartnerContact from "./partners-contact.webp";
 import PartnerLogo1 from "./partners-logo1.webp";
 import PartnerLogo2 from "./partners-logo2.webp";
 import PartnerLogo3 from "./partners-logo3.webp";
+import EchoesHeroDesk from "./echoes-hero-desk.webp";
+import EchoesHeroMob from "./echoes-hero-mob.webp";
+import EchoesListenFirst from "./echoes-listen-first.webp";
+import EchoesSoundscape1 from "./echoes-soundscape-1.webp";
+import EchoesSoundscape2 from "./echoes-soundscape-2.webp";
+import EchoesSoundscape3 from "./echoes-soundscape-3.webp";
+import EchoesSoundInform from "./echoes-sound-informs.webp";
 
 export const assets = {
   logo,
@@ -167,5 +174,12 @@ export const assets = {
   PartnerContact,
   PartnerLogo1,
   PartnerLogo2,
-  PartnerLogo3
+  PartnerLogo3,
+  EchoesHeroDesk,
+  EchoesHeroMob,
+  EchoesListenFirst,
+  EchoesSoundscape1,
+  EchoesSoundscape2,
+  EchoesSoundscape3,
+  EchoesSoundInform
 };

@@ -7,11 +7,12 @@ const ContentSection = ({
     children,
     reverse = false,
     titleAlign = "text-center md:text-left",
-    customPadding = "px-[16px] md:px-[60px]"
+    customPadding = "px-[16px] md:px-[60px]",
+    customGap = "gap-[24px] md:gap-x-[100px]"
 }) => {
     return (
         <section className={`bg-white max-w-[1500px] mx-auto pt-[40px] md:py-[60px] ${customPadding}`}>
-            <div className="mx-auto grid md:grid-cols-2 gap-[24px] md:gap-x-[100px] items-center">
+            <div className={`mx-auto grid md:grid-cols-2 items-center ${customGap}`}>
                 <div className={`relative w-full h-full rounded-[20px] overflow-hidden ${reverse ? "md:order-last" : ""}`}>
                     <Image
                         src={imageSrc}
