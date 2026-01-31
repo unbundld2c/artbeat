@@ -14,7 +14,7 @@ const Header = () => {
     {
       title: "About Us",
       items: [
-        { label: "Our Story", href: "/about" },
+        { label: "Our Story", href: "/about-us" },
         { label: "Reports and Financials", href: "/reports" },
         { label: "Blogs", href: "/blogs" },
       ],
@@ -81,12 +81,12 @@ const Header = () => {
 
           {/* Join Us Button */}
           <div>
-            <a
-              href="#"
+            <Link
+              href="/contact-us"
               className="bg-[#E2725B] text-white px-[20px] py-[11px] rounded-[60px] hover:bg-[#d85a44] transition text-[18px] leading-[27px] font-medium"
             >
               Join us
-            </a>
+            </Link>
           </div>
         </div>
       </div>

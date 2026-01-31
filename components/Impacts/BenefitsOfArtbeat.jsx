@@ -3,20 +3,24 @@ import React from "react";
 export default function BenefitsOfArtbeat() {
   const benefits = [
     {
-      title: "Boosted Academic Performance",
-      description: "Strengthening foundational literacy and numeracy."
+      title: "Emotional Literacy (Identify)",
+      description: "Children use the Atlas of Emotions to name complex feelings, moving from overwhelm to clarity."
     },
     {
-      title: "Essential Life Skills",
-      description: "Developing resilience, grit, and motivation."
+      title: "Creative Articulation (Express)",
+      description: "Students externalize thoughts through music, art, and writing to build a strong personal voice."
     },
     {
-      title: "Improved School Engagement",
-      description: "Leading to increased attendance."
+      title: "Adaptive Self-Regulation (Regulate)",
+      description: "Children learn to transition from high-intensity emotions to calm, focused engagement."
     },
     {
-      title: "Creating Effective Learners",
-      description: "Cultivating well-rounded and successful students."
+      title: "Empathic Connection (Connect)",
+      description: "Collaborative projects build social awareness and a deep sense of community belonging."
+    },
+    {
+      title: "Cognitive Agency (Solve)",
+      description: "Independent creative choices build the critical thinking and focus necessary for academic success and problem-solving."
     }
   ];
 
@@ -24,7 +28,7 @@ export default function BenefitsOfArtbeat() {
     <section className="w-full max-md:pt-[40px] py-[0] md:py-16 px-[16px] md:px-[60px]">
       <div className="max-w-[1500px] mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-[40px]">
-          The Benefits of Artbeat
+          The ArtBeat Outcomes
         </h2>
 
         <div className="flex gap-[24px] md:gap-[40px] flex-wrap">

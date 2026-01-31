@@ -14,18 +14,18 @@ import WhyCreativeArts from "@/components/Home/WhyCreativeArts";
 export default function Home() {
   return (
     <>
-     <Header />
-     <Hero/>
-     <AboutSection/>
-     <WhyCreativeArts/>
-     <ProgramsSection />
-     <ExpertVoices/>
-     <Approach/>
-     <Involved/>
-     <Outcomes/>
-     <BenefitsSection/>
-     <BlogsSection/>
-     <Footer/>
+      <Header />
+      <Hero />
+      <AboutSection />
+      <WhyCreativeArts />
+      <ProgramsSection />
+      <ExpertVoices />
+      <Approach />
+      <Involved />
+      <Outcomes />
+      <BenefitsSection />
+      <BlogsSection buttonLink="/blogs" />
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { assets } from "@/Assets/assets";
 import Image from "next/image";
+import Link from "next/link";
 
 const Involved = () => {
   return (
@@ -40,12 +41,12 @@ const Involved = () => {
               height="auto"
               unoptimized
             />
-            <a
-              href="#"
+            <Link
+              href="/contact-us"
               className="text-[#2C2C2C] md:text-[20px] md:leading-[20px] leading-[16px] text-[16px] font-bold mt-[12px] border-b-[1px] border-[#2C2C2C]"
             >
               Connect with us
-            </a>
+            </Link>
           </div>
 
           {/* Adopt a School */}
@@ -57,12 +58,12 @@ const Involved = () => {
               height="auto"
               unoptimized
             />
-            <a
-              href="#"
+            <Link
+              href="/contact-us"
               className="text-[#2C2C2C] md:text-[20px] md:leading-[20px] leading-[16px] text-[16px] font-bold mt-[12px] border-b-[1px] border-[#2C2C2C]"
             >
               Adopt a School
-            </a>
+            </Link>
           </div>
         </div>
       </div>

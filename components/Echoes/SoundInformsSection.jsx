@@ -12,8 +12,8 @@ const soundInformsData = {
         "Use Local Narratives: Community sound conversations provide genuine, local stories that can be the basis for theatre and storytelling projects.",
         "Ensure Connection: By grounding our programs in the actual sonic environment, we ensure our artistic projects feel familiar and meaningful to the community."
     ],
-    buttonText: "Explore Our Work",
-    buttonLink: "/coming-soon"
+    // buttonText: "Explore Our Work",
+    // buttonLink: "/coming-soon"
 };
 
 const SoundInformsSection = () => {
@@ -38,7 +38,7 @@ const SoundInformsSection = () => {
                     ))}
 
                 </ul>
-                <div className="flex justify-start mt-[16px]">
+                {/* <div className="flex justify-start mt-[16px]">
                     <Link
                         href={soundInformsData.buttonLink}
                         className="bg-[#E2725B] rounded-[60px] text-white font-medium md:text-[18px] md:leading-[18px] text-[16px] leading-[16px] py-[10px] px-[20px] flex items-center gap-[10px]"
@@ -49,7 +49,7 @@ const SoundInformsSection = () => {
                             <path d="M15.5001 12.0001H8.5M13.0002 8.5C13.0002 8.5 16.5001 11.0777 16.5001 12C16.5001 12.9224 13.0002 15.5 13.0002 15.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </Link>
-                </div>
+                </div> */}
             </div>
         </ContentSection>
     );

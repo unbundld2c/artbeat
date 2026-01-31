@@ -49,7 +49,7 @@ const frameworks = [
 
 const CoreFrameworks = () => {
   return (
-    <section className="max-w-[1500px] mx-auto px-[0] md:px-[60px] mt-[40px] md:mt-[60px] mb-[40px] md:mb-[92px]">
+    <section id="core-frameworks" className="max-w-[1500px] mx-auto px-[0] md:px-[60px] mt-[40px] md:mt-[60px] mb-[40px] md:mb-[92px]">
       <div>
         <div className="max-md:px-[16px] text-center">
           <h2 className="text-[36px] md:text-[48px] lh-[100%] text-[#2C2C2C] font-regular mb-[8px]">
