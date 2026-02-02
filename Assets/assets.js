@@ -89,6 +89,16 @@ import EchoesSoundscape1 from "./echoes-soundscape-1.webp";
 import EchoesSoundscape2 from "./echoes-soundscape-2.webp";
 import EchoesSoundscape3 from "./echoes-soundscape-3.webp";
 import EchoesSoundInform from "./echoes-sound-informs.webp";
+import Mood1 from "./mood1.webp";
+import Mood2 from "./mood2.webp";
+import Mood3 from "./mood3.webp";
+import Mood4 from "./mood4.webp";
+import VioletHeroDesk from "./violet-hero-desk.webp";
+import VioletHeroMob from "./violet-hero-mob.webp";
+import BlueHeroDesk from "./blue-hero-desk.webp";
+import BlueHeroMob from "./blue-hero-mob.webp";
+import GreyHeroDesk from "./grey-hero-desk.webp";
+import GreyHeroMob from "./grey-hero-mob.webp";
 
 export const assets = {
   logo,
@@ -181,5 +191,15 @@ export const assets = {
   EchoesSoundscape1,
   EchoesSoundscape2,
   EchoesSoundscape3,
-  EchoesSoundInform
+  EchoesSoundInform,
+  Mood1,
+  Mood2,
+  Mood3,
+  Mood4,
+  VioletHeroDesk,
+  VioletHeroMob,
+  BlueHeroDesk,
+  BlueHeroMob,
+  GreyHeroDesk,
+  GreyHeroMob,
 };

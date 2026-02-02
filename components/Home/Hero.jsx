@@ -35,7 +35,7 @@ const Hero = ({
           src={mobileImage}
           alt={imageAlt}
           unoptimized
-          className="block md:hidden w-[100%]"
+          className="block md:hidden w-[100%] transition-opacity duration-700 ease-in-out"
           priority
         />
         {/* Desktop Image */}
@@ -43,7 +43,7 @@ const Hero = ({
           src={desktopImage}
           alt={imageAlt}
           unoptimized
-          className="hidden md:block w-[100%]"
+          className="hidden md:block w-[100%] transition-opacity duration-700 ease-in-out"
           priority
         />
 
