@@ -99,6 +99,11 @@ import BlueHeroDesk from "./blue-hero-desk.webp";
 import BlueHeroMob from "./blue-hero-mob.webp";
 import GreyHeroDesk from "./grey-hero-desk.webp";
 import GreyHeroMob from "./grey-hero-mob.webp";
+import Advisor1 from "./advisor1.webp";
+import Advisor2 from "./advisor2.webp";
+import Advisor3 from "./advisor3.webp";
+import TechAdvisor1 from "./techAdvisor1.webp";
+import TechAdvisor2 from "./techAdvisor2.webp";
 
 export const assets = {
   logo,
@@ -202,4 +207,9 @@ export const assets = {
   BlueHeroMob,
   GreyHeroDesk,
   GreyHeroMob,
+  Advisor1,
+  Advisor2,
+  Advisor3,
+  TechAdvisor1,
+  TechAdvisor2,
 };

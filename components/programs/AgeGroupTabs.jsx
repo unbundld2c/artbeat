@@ -25,7 +25,7 @@ const AgeGroupTabs = ({ data }) => {
                 activeTab === group.id
                   ? "bg-[#E97451] text-white border-[#E97451]"
                   : "bg-white border-gray-200"
-              }`}
+                }`}
             >
               {group.label}
             </button>
@@ -61,6 +61,12 @@ const AgeGroupTabs = ({ data }) => {
             <h3 className="text-[#E97451] text-[20px] font-bold mb-4">
               Goals & Intended Outcomes
             </h3>
+
+            {activeContent.goalOverview && (
+              <p className="mb-6 text-[#2C2C2C]">
+                {activeContent.goalOverview}
+              </p>
+            )}
 
             <ul className="space-y-3 text-[#2C2C2C]">
               {activeContent.goalsList.map((item, i) => (

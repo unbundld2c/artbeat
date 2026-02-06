@@ -2,48 +2,33 @@ import React from "react";
 
 const frameworks = [
   {
-    title: "Whole-Child Development Framework",
+    title: "The Foundation of Safety & Belonging",
     points: [
-      "Emphasising development across the cognitive (Head), emotional (Heart), and physical-social (Hand) domains to ensure balanced growth.",
-      "Programs are tailored to meet developmental milestones and needs within different age groups, from early childhood through adolescence and beyond.",
+      "Framework: Trauma-Informed & Attachment-Based Care.",
+      "The Shift: We move beyond \"safe spaces\" to cultivate a deep internal feeling of safety. Safety is the prerequisite for joy.",
+      "The Impact: By ensuring every child feels fundamentally \"okay\" and accepted, we unlock their ability to take risks. Here, art is not a chore or a luxury—it is a fundamental right and a vehicle for authentic joy.",
     ],
     span: "md:col-span-2",
   },
   {
-    title: "Trauma-Informed Care",
+    title: "The Science of Emotion",
     points: [
-      "Understanding the impact of trauma, Artbeat fosters safe, predictable, and supportive environments.",
-      "Facilitators are trained to recognize trauma signs, ensuring psychological safety and trust through ethical care, predictable routines, and sensitivity to individual needs.",
+      "Frameworks:",
+      "Atlas of Emotions: We utilize this scientific map of the five universal \"continent\" emotions—anger, fear, sadness, disgust, and enjoyment.",
+      "Positive Psychology: We focus on fostering strengths, resilience, optimism, and flourishing.",
+      "The Impact: By integrating these, we deepen emotional literacy and equip children with tools like agency and constructive coping for lifelong well-being.",
     ],
     span: "md:col-span-2",
   },
   {
-    title: "Social Emotional Learning (SEL) — Aligned with NEP 2024",
+    title: "The Path to Growth",
     points: [
-      "The curriculum aligns with SEL competencies highlighted in India's National Education Policy 2024:",
-      "Self-awareness and emotional management.",
-      "Social awareness and empathy.",
-      "Responsible decision-making.",
-      "Relationship skills and communication.",
-      "This ensures relevancy and compliance with educational priorities.",
+      "Whole-Child Development Framework: We emphasize balanced growth across cognitive (Head), emotional (Heart), and physical-social (Hand) domains.",
+      "Social Emotional Learning (SEL): Our curriculum develops self-awareness, empathy, responsible decision-making, and relationship skills.",
+      "The Impact: Programs are tailored to developmental milestones, ensuring children grow into emotionally intelligent and socially responsible individuals.",
     ],
+    note: "Note for partners: Our SEL curriculum is globally benchmarked and ensures full compliance with India’s National Education Policy (NEP) 2024.",
     span: "md:col-span-2",
-  },
-  {
-    title: "Positive Psychology",
-    points: [
-      "Artbeat focuses on fostering strengths, resilience, optimism, and flourishing.",
-      "Activities promote agency, hope, self-efficacy, and constructive coping to equip children with tools for lifelong well-being.",
-    ],
-    span: "md:col-span-3",
-  },
-  {
-    title: "Atlas of Emotions",
-    points: [
-      'This framework provides a scientific map of the five universal "continent" emotions (anger, fear, sadness, disgust, and enjoyment).',
-      "It is integrated to deepen emotional literacy, helping children identify the full spectrum of emotions, understand their triggers, and practice choosing constructive responses over destructive actions.",
-    ],
-    span: "md:col-span-3",
   },
 ];
 
@@ -53,13 +38,10 @@ const CoreFrameworks = () => {
       <div>
         <div className="max-md:px-[16px] text-center">
           <h2 className="text-[36px] md:text-[48px] lh-[100%] text-[#2C2C2C] font-regular mb-[8px]">
-            Core Frameworks
+            Our Core Methodology: The ArtBeat Trinity
           </h2>
           <p className="text-[16px] md:text-[20px] text-[#2C2C2C] leading-[150%] font-normal mb-[20px] md:mb-[40px]">
-            Artbeat's curriculum is deliberately built upon{" "}
-            <span className="font-bold">five</span> synergistic, evidence-based
-            frameworks to ensure a holistic, safe, and measurable impact on
-            every child.
+            We don't just teach creative art; we use it as a vehicle for human flourishing. Our curriculum is built upon <span className="font-bold">five</span> synergistic, evidence-based frameworks categorized into <span className="font-bold">three</span> pillars of impact:
           </p>
         </div>
 
@@ -88,6 +70,11 @@ const CoreFrameworks = () => {
                   </li>
                 ))}
               </ul>
+              {item.note && (
+                <p className="mt-3 text-[#2C2C2C] text-[12px] md:text-[14px] leading-[150%] italic">
+                  {item.note}
+                </p>
+              )}
             </div>
           ))}
         </div>

@@ -24,9 +24,9 @@ const Header = () => {
       items: [
         { label: "Core Concepts", href: "/programs" },
         { label: "Aaroh", href: "/programs#aaroh" },
+        { label: "Anand", href: "/programs#anand" },
         { label: "Aakaar", href: "/programs#aakaar" },
         { label: "Akshar", href: "/programs#akshar" },
-        { label: "Varna", href: "/programs#varna" },
         { label: "Echoes", href: "/echoes" },
       ],
     },

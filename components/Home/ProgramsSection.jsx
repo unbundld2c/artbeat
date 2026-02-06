@@ -10,6 +10,12 @@ const programs = [
     link: "/programs#aaroh",
   },
   {
+    img: assets.Program3,
+    title: "Anand — Storytelling",
+    desc: "Anand sparks imagination and empathy by leveraging the art of storytelling to help children build emotional resilience, social connection, and expressive confidence.",
+    link: "/programs#anand",
+  },
+  {
     img: assets.Program2,
     title: "Akshar — Writing Pedagogy",
     desc: "Akshar empowers children to explore their inner world and strengthen self-awareness by nurturing their narrative voice through guided writing and storytelling activities.",
@@ -20,12 +26,6 @@ const programs = [
     title: "Aakaar — Visual Arts",
     desc: "Aakaar uses visual arts as a medium for nonverbal communication, enabling children to process emotions, solve problems metaphorically, and enhance cognitive and emotional well-being.",
     link: "/programs#aakaar",
-  },
-  {
-    img: assets.Program3,
-    title: "Varna — Storytelling",
-    desc: "Varna sparks imagination and empathy by leveraging the art of storytelling to help children build emotional resilience, social connection, and expressive confidence.",
-    link: "/programs#varna",
   },
 ];
 

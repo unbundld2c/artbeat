@@ -5,35 +5,26 @@ export const programContent = [
         id: "aaroh",
         bgColor: "#FFFAEB",
         iwt: {
-            title: "Aaroh",
+            title: "Aaroh (Music-Based Program)",
             illustrationUrl: assets.Aaroh,
             description:
-                "Aaroh is an immersive music program that introduces children to a rich tapestry of musical genres through exploration of various instruments, sounds, and rhythms.",
+                "Aaroh is an immersive music program that invites children to explore the rich tapestry of sound. By engaging with diverse instruments and rhythms, children find a unique medium for self-expression and emotional agility.",
             sections: [
                 {
-                    heading: "Neurological Foundations",
+                    heading: "Neurological & Emotional Foundations:",
                     content:
-                        "Research shows musical engagement enhances brain plasticity, activates language and executive function areas, and supports emotional regulation circuits.",
+                        "Musical engagement enhances brain plasticity and strengthens the executive function areas responsible for focus and memory. Emotionally, rhythm and melody serve as a \"nervous system regulator,\" helping children soothe anxiety, build resilience, and find a sense of harmony within themselves.",
                 },
                 {
-                    heading: "Musical Genres and Instruments",
+                    heading: "Genres & Exploration",
                     content:
-                        "In Aaroh, children discover and engage with a diverse range of musical traditions and instruments suited to their age and interests, including:",
+                        "While Carnatic Classical forms the structural foundation, the curriculum is a living exploration of sound.",
                     listItems: [
-                        { description: "Carnatic Classical: Exploring melodic intricacies and rhythm patterns (tala)" },
-                        { description: "Hindustani Classical: Raga-based improvisation and vocal styles" },
-                        { description: "Jazz: Syncopation, blues scales, and improvisational creativity" },
-                        { description: "Folk and World Music: Traditional beats and cultural storytelling" },
-                        { description: "Contemporary Styles: Popular music, fusion, and digital sound exploration" },
-                    ],
-                },
-                {
-                    content: "Children will experiment with instruments such as:",
-                    listItems: [
-                        { description: "Percussion (mridangam, tabla, djembe, tambourine)" },
-                        { description: "Melody instruments (harmonium, flute, keyboard)" },
-                        { description: "Vocal exercises to develop pitch and breath control" },
-                        { description: "Body percussion and digital tools for sound creation" },
+                        { description: "Contextual folk music" },
+                        { description: "Hindustani rhythms" },
+                        { description: "Jazz" },
+                        { description: "Contemporary fusion" },
+                        { description: "Tactile discovery—using voice, percussion (like the mridangam and djembe), and melody instruments to understand cultural storytelling through sound." },
                     ],
                 },
             ],
@@ -43,56 +34,53 @@ export const programContent = [
             {
                 id: "3-5",
                 label: "Age 3-5",
-                curriculumOverview: "At every stage, participants engage with core thematic areas that nurture emotional awareness, cognitive skills, and social connection. These include:",
+                curriculumOverview: "In this stage, we focus on sensory-rich exploration where the body is the primary tool for learning. The curriculum integrates:",
                 curriculumList: [
-                    "Emotional 'Continents' Exploration",
-                    "Body & Breath Awareness",
-                    "Sound & Rhythm Foundations",
-                    "Creative Movement & Expression",
-                    "Early Storytelling & Imagination",
-                    "Community & Cooperation",
-                    "Soundscapes & Nature",
-                    "Music & Mood Regulation",
-                    "Language & Rhythm Integration",
-                    "Cultural Connections",
-                    "Celebration & Reflection",
+                    "Body, Breath & Gross Motor Awareness: Developing physical coordination, balance, and large-scale movement to build confidence and spatial awareness",
+                    "Emotional 'Continents' & Mood Regulation: An introductory journey into the Atlas of Emotions, using sound and rhythm to identify and soothe \"big feelings.\"",
+                    "Soundscapes & Nature: Connecting with the world through listening, mimicking nature's rhythms, and exploring early storytelling.",
+                    "Community & Creative Play: Collaborative movement and \"Anand\" (play) sessions that foster early social cooperation and reflection.",
                 ],
-                goalsTitle: "Through playful and embodied musical experiences, children begin to:",
+                goalsTitle: "",
+                goalOverview: "",
                 goalsList: [
-                    "Recognize and explore basic emotions through sound and movement.",
-                    "Develop early breath control and body awareness.",
+                    "Emotional Recognition: Ability to identify and express basic emotions through specific sounds, colors, or movements.",
+                    "Self-Regulation: Developing early breath control and the ability to use \"rhythmic grounding\" to manage energy levels.",
+                    "Physical Coordination: Demonstrating improved gross motor control and an awareness of personal space within a group.",
                 ],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional intelligence and self-regulation.",
-                            "Improved focus and cognitive development.",
-                            "Cultural awareness and appreciation.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "A turn-key music curriculum aligned with NEP goals.",
-                            "Supports holistic student development.",
-                            "Easy integration into existing schedules.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Regular updates on child's musical progress.",
-                            "Tools to support emotional bonding at home.",
-                            "A safe space for creative expression.",
+                            "Neural Priming: Enhances brain plasticity by connecting physical movement (gross motor skills) with cognitive pattern recognition",
+                            "Social Comfort: Reduces separation anxiety and builds foundational trust",
+                            "Language Readiness: Strengthens the relationship between rhythm and speech patterns, supporting early communication and literacy.",
+                            "Emotional Literacy: Enables children to identify and express basic feelings safely using sounds, colors, or movement",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Comprehensive lesson plans and resources.",
-                            "Professional development workshops.",
-                            "Structured frameworks for assessment.",
+                            "Novel Toolkits: Equips teachers with arts-infused, developmentally appropriate strategies to engage high-energy preschoolers.",
+                            "Responsive Observation: Provides a framework to observe and respond to early emotional and social cues, making classroom management more intuitive.",
+                            "Calmer Environment: By channeling energy into structured sound and movement, teachers experience a more focused and regulated classroom atmosphere.",
+                            "Collaborative Inquiry: Offers creative \"entry points\" that complement any existing curriculum, making abstract concepts tangible for young learners.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Holistic Integration: Demonstrates a commitment to the \"Whole Child,\" ensuring that emotional and social growth are treated with the same rigor as cognitive milestones",
+                            "Evidence-Based Environment: Implements a framework grounded in positive psychology and trauma-informed care, elevating the school’s standard of student support.",
+                            "Community Cohesion: Fosters a school culture where \"Play is a Right,\" attracting families who value a balanced, research-backed approach to early education.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Visibility into Wellbeing: Offers a meaningful window into the child’s inner world through their creative expressions and emotional milestones.",
+                            "Harmonious Transitions: Supports the child’s ability to self-regulate, often resulting in more confident social interactions and emotional stability at home.",
+                            "Pressure-Free Mastery: Ensures the child develops an authentic love for the arts, built on a foundation of joy and discovery rather than performance-driven expectations.",
                         ],
                     },
                 ],
@@ -100,41 +88,278 @@ export const programContent = [
             {
                 id: "6-8",
                 label: "Age 6-8",
-                curriculumOverview: "Advanced exploration for older children...",
-                curriculumList: ["Rhythmic complexity", "Instrumental basics"],
-                goalsTitle: "Children will achieve:",
-                goalsList: ["Team collaboration", "Musical literacy"],
+                curriculumOverview: "In this stage, music becomes a bridge between the individual and the collective. The curriculum focuses on:",
+                curriculumList: [
+                    "Emotional Literacy: Moving beyond basic feelings to naming and expressing nuanced emotions through melodic contours and rhythm.",
+                    "Collaborative Composition: Group music-making that requires active listening, turn-taking, and shared creative decision-making.",
+                    "Rhythm & Movement: Integrating pulse and physical coordination to help children find their \"rhythm\" within a community.",
+                    "Cultural Empathy: Exploring contextual folk music and global sounds to build an appreciation for diverse narratives."
+                ],
+                goalsTitle: "",
+                goalOverview: "",
+                goalsList: [
+                    "Musical Literacy: Developing a foundational understanding of pitch, rhythm, and melodic patterns, enabling children to decode and create basic musical sequences.",
+                    "Team Collaboration: Mastering the art of \"Collective Pulse\"—learning to listen, wait, and contribute to a group ensemble, mirroring the skills needed for healthy social play.",
+                    "Emotional Nuance: The ability to identify and express a wider spectrum of emotions through musical dynamics (tempo, volume, and tone).",
+                    "Aural Sensitivity: Developing deep listening skills that improve focus and the ability to distinguish subtle variations in sound and speech.",
+                ],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional intelligence and self-regulation.",
-                            "Improved focus and cognitive development.",
-                            "Cultural awareness and appreciation.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "A turn-key music curriculum aligned with NEP goals.",
-                            "Supports holistic student development.",
-                            "Easy integration into existing schedules.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Regular updates on child's musical progress.",
-                            "Tools to support emotional bonding at home.",
-                            "A safe space for creative expression.",
+                            "Confidence in Voice: Providing a safe platform for students to share their unique \"sound\" building the self-assurance needed for public expression.",
+                            "Attention Regulation & Executive Function: Engaging with complex rhythms serves as a cognitive \"antidote\" to declining attention spans, requiring sustained focus and the mental agility to synchronize with a group.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Comprehensive lesson plans and resources.",
-                            "Professional development workshops.",
-                            "Structured frameworks for assessment.",
+                            "Empathy-Building Tools: Music acts as a \"low-stakes\" medium to address social dynamics, helping teachers foster a culture of mutual respect and inclusion.",
+                            "Dynamic Classroom Energy: Using rhythmic exercises to \"tune\" the class energy, helping to de-escalate tension and improve collective focus.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Prosocial Environment: By prioritizing collaborative arts, the school reduces isolation and fosters a supportive peer culture grounded in empathy.",
+                            "Integrative Excellence: Demonstrates how creative arts can be a rigorous vehicle for developing social-emotional intelligence alongside academic goals.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Emotional Stability: Improved self-regulation at school often translates to a more resilient and communicative child at home.",
+                            "Visibility into Progress: Performance and reflection sessions allow parents to witness their child’s growth in confidence and collaborative spirit in real-time.",
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "9-12",
+                label: "Age 9-12",
+                curriculumOverview: "At this stage, participants transition from exploration to integration. The curriculum is designed to support the pre-teen’s emerging sense of self through more sophisticated creative challenges:",
+                curriculumList: [
+                    "Project-Based Learning: Moving toward independent and small-group projects (like composing a piece, creating an exhibit, or drafting a long-form narrative) that require sustained focus and planning.",
+                    "Advanced Emotional Literacy: Exploring the \"narratives\" behind emotions—moving beyond identifying a feeling to understanding its roots, triggers, and metaphorical expressions.",
+                    "Metacognition & Reflection: Engaging in deliberate critique and reflection of their own work and the work of others to build critical thinking.",
+                    "Technical Refinement: Deepening the mastery of specific artistic techniques, whether in complex rhythmic cycles, visual perspective, or advanced narrative structures."
+                ],
+                goalsTitle: "",
+                goalOverview: "",
+                goalsList: [
+                    "Self-Identity & Narrative: The ability to use creative mediums to articulate personal history, values, and a unique point of view.",
+                    "Collaborative Leadership: Taking initiative within a group setting, such as leading an ensemble or coordinating a shared artistic vision.",
+                    "Technical Proficiency: Mastering higher-level creative skills that provide a sense of competence and \"flow.\"",
+                    "Critical Inquiry: Developing the ability to analyze and discuss creative works with a constructive, multi-layered perspective.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Personal Agency: Students gain a profound sense of ownership by seeing a complex, multi-step project through from concept to completion.",
+                            "Executive Function: Navigating long-term creative goals strengthens organizational skills, time management, and the ability to handle complexity.",
+                            "Emotional Resilience: Creative expression provides a stable \"anchor\" during the social and physical transitions of pre-adolescence.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Mentor Relationship: The facilitator role shifts to mentorship, allowing for deeper engagement with each student’s individual creative voice.",
+                            "Insightful Evaluation: Access to non-academic \"pulse checks\" that help identify a student's social-emotional state during a sensitive developmental window.",
+                            "Intellectual Rigour: Provides a platform for high-level engagement that challenges students' cognitive and creative limits.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Cultivating Leaders: Acts as an incubator for students who are not just skilled in arts, but are empathetic, reflective, and confident problem-solvers.",
+                            "Safe Developmental Spaces: Offers a structured support system that reduces social friction and fosters mutual respect during the middle-school years.",
+                            "Authentic Advocacy: Student-led projects serve as powerful evidence of the school’s commitment to deep, research-backed, holistic development.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Meaningful Connection: Parents gain a sophisticated understanding of their child's evolving personality through their creative output and narratives.",
+                            "Future-Ready Foundations: Seeing the development of \"soft skills\" like critical thinking and collaboration that are essential for future academic and professional success.",
+                            "Stabilized Communication: The self-reflection practiced in the program often results in a more articulate and communicative relationship within the family",
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "13-15",
+                label: "Age 13-15",
+                curriculumOverview: "This stage empowers adolescents to use their creative voice as a force for personal and social change. The curriculum integrates high-level technical skills with deep emotional maturity:",
+                curriculumList: [
+                    "Creative Advocacy: Using music, art, or writing to address social themes, community narratives, and personal values.",
+                    "Trauma-Informed Self-Care: Developing advanced coping strategies and using the arts as a sustainable tool for mental health and stress management.",
+                    "Interdisciplinary Projects: Integrating multiple art forms (e.g., soundscapes with visual art or digital storytelling) to create holistic expressions of identity.",
+                    "Public Engagement & Performance: Moving from internal discovery to public sharing, focusing on the ethics of storytelling and community impact."
+                ],
+                goalsTitle: "",
+                goalOverview: "",
+                goalsList: [
+                    "Social Consciousness: The ability to connect personal creative work to broader social and cultural contexts.",
+                    "Sustainable Well-being: Mastering \"creative grounding\" techniques that provide lifelong emotional resilience.",
+                    "Sophisticated Communication: Developing the ability to present complex ideas and narratives with confidence, clarity, and empathy.",
+                    "Technological Fluency: Integrating modern tools and digital platforms into traditional creative practices for broader reach.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Civic Agency: Students discover the power of their voice to influence their community, building a sense of purpose and social responsibility.",
+                            "Emotional Autonomy: Developing a \"self-authored\" identity that can withstand external pressures and social complexities.",
+                            "Professional Readiness: Building a portfolio of work that demonstrates high-level critical thinking, project management, and creative mastery.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Collaborative Partnership: The relationship evolves into a peer-like collaboration, where the teacher acts as a professional guide and sounding board.",
+                            "Meaningful Dialogue: Provides a structured platform to discuss complex social and emotional topics that are often difficult to navigate in traditional academic settings.",
+                            "Skill Diversification: Teachers gain experience in mentoring multi-modal and digital-integrated creative projects.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Ambassadors of Values: Adolescents in this program become the face of the school’s values, demonstrating empathy and social awareness in their public-facing work.",
+                            "Reduced Social Conflict: High levels of emotional intelligence and advocacy-focused communication contribute to a more inclusive and respectful school climate.",
+                            "Legacy Projects: The tangible creative outcomes (exhibitions, performances, publications) serve as a lasting legacy of the school’s commitment to the \"Whole Child.\"",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Mature Connection: Parents engage with their teens on a deeper level, discussing the significant social and personal themes explored in their creative work.",
+                            "Confidence in the Future: Seeing the teen develop the leadership, advocacy, and self-regulation skills required for the complexities of university and beyond.",
+                            "Mutual Respect: The focus on advocacy and resilience fosters a home environment built on articulate expression rather than reactive conflict.",
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+
+    {
+        id: "anand",
+        bgColor: "#EFFCFF",
+        iwt: {
+            title: "Anand (Play-Based Program)",
+            illustrationUrl: assets.Akshar,
+            description: (
+                <>
+                    Anand is a joyful, play-based well-being program designed to nurture a child’s natural curiosity and spontaneity. We believe that {" "}<span className="font-semibold">play is a right rather than a reward</span>{" "}
+                    —it is the essential language through which children explore the world. By centering "play" as a primary creative medium, Anand helps children build foundational resilience and social-emotional skills in a low-pressure, high-engagement environment.
+                </>
+            ),
+            sections: [
+                {
+                    heading: "Neurological & Emotional Foundations",
+                    content:
+                        "Play stimulates the prefrontal cortex (executive function) while regulating the amygdala (the brain's emotional centre). It provides a \"safe container\" for children to practice social roles and manage big emotions without the fear of failure.",
+                },
+                {
+                    heading: "Genres & Exploration",
+                    listItems: [
+                        { description: "Structured play" },
+                        { description: "Imaginative role-play" },
+                        { description: "Sensory exploration" },
+                        { description: "Cooperative games" },
+                        { description: "Movement-based storytelling, etc." },
+                    ],
+                },
+            ],
+        },
+
+        ageGroups: [
+            {
+                id: "3-5",
+                label: "Age 3-5",
+                curriculumOverview: "Designed around material exploration, sensory discovery, and nature-based play, this stage supports children as they transition from solitary to parallel and early cooperative play. In blended indoor–outdoor environments, children engage with loose parts, natural materials, textures, movement, and sound, constructing meaning through hands-on, open-ended experiences.",
+                curriculumList: [
+                    "Key Themes: Sensory-rich environments, nature play, movement and the creation of “safe spaces” using flexible materials such as cloth, wood, boxes, stones, and found objects.",
+                ],
+                goalsTitle: "",
+                goalOverview: "",
+                goalsList: [
+                    "Development of gross motor coordination",
+                    "Sensory integration",
+                    "Early self-regulation supported through rhythmic movement",
+                    "Tactile exploration and calming material-based play experiences.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Strengthens whole-body learning through carrying, stacking, pouring, climbing, and building",
+                            "Integrating physical development with cognitive growth.",
+                            "Reduces separation anxiety through grounding sensory and nature-based experiences.",
+                            "Builds social comfort through shared, non-competitive, material-rich play.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Provides meaningful opportunities to observe sensory preferences",
+                            "Motor development, emotional regulation, and emerging social skills through children’s interactions with materials and space.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Establishes a learning culture where hands-on",
+                            "Exploratory play is recognised as a core pathway to engagement, well-being, and early learning.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Affirms the importance of open-ended, tactile, and imaginative discovery as foundational to confidence, curiosity, and emotional security.",
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "6-8",
+                label: "Age 6-8",
+                curriculumOverview: "This stage deepens into collaborative making, imaginative world-building, and material-based problem-solving. Children work with loose parts, recycled and natural materials, and sensory resources to design structures, invent games, build landscapes, and negotiate shared narratives across blended learning spaces.",
+                curriculumList: [
+                    "Key Themes: Open-ended construction, imaginative role-play environments, sensory design challenges, cooperative making, and nature-inspired inquiry."
+                ],
+                goalsTitle: "",
+                goalOverview: "",
+                goalsList: [
+                    "Strengthening focus and Planning",
+                    "Flexible thinking, collaboration, and emotional awareness emerge organically through sustained play with materials, peers, and environments.",
+                ],
+                benefits: [
+                    {
+                        title: "For Students",
+                        content: [
+                            "Develops empathy and perspective-taking through role-play, storytelling, and shared imaginative worlds.",
+                            "Builds confidence, agency, and resilience through choice-driven, material-led exploration.",
+                        ],
+                    },
+                    {
+                        title: "For Teachers",
+                        content: [
+                            "Offers effective play-based strategies for emotional regulation, conflict resolution",
+                            "Classroom culture-building through collaborative construction and imaginative scenarios.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Fosters a culture of creativity, cooperation, inclusion, and environmental stewardship, grounded in experiential, material-rich learning.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Supports the child’s growth into a thoughtful, adaptable, and expressive learner, capable of collaboration, problem-solving, and imaginative thinking across contexts.",
                         ],
                     },
                 ],
@@ -146,46 +371,32 @@ export const programContent = [
         id: "aakaar",
         bgColor: "#F0F8FF",
         iwt: {
-            title: "Aakar — Visual Arts Pedagogy Program Description",
+            title: "Aakaar (Visual Arts Program)",
             illustrationUrl: assets.Aaroh,
-            description:
-                "Aakar is an immersive, process-oriented visual arts program that invites learners to engage in nonverbal communication, self-discovery, and cognitive growth through creative practice. By exploring diverse art mediums—from drawing and painting to sculpture and mixed media—learners develop expressive fluency, metaphorical thinking, and emotional resilience in a therapeutic and inspiring setting.",
+            description: (
+                <>
+                    Aakaar is an immersive, process-oriented visual arts program developed in collaboration with {" "}<span className="font-semibold">ArtSparks Foundation.</span>{" "}
+                    It invites children to engage in non-verbal communication and self-discovery by treating art as a vital language. Through Aakaar, children translate
+                    inner experiences into visible form, fostering the mental clarity and emotional resilience necessary for lifelong flourishing.
+                </>
+            ),
             sections: [
                 {
-                    heading: "Cognitive and Emotional Foundations",
+                    heading: "Neurological & Emotional Foundations",
                     content:
-                        "Research indicates that engaging with visual arts significantly enhances spatial reasoning, fine motor skills, and problem-solving abilities. Crucially, it serves as a powerful medium for emotional regulation and communication, especially in processing complex feelings that words often fail to capture. Aakar's curriculum is built on a trauma-informed framework and positive psychology, providing a secure space where learners can translate inner experiences into visible form. This process fosters self-awareness, reduces stress, and promotes holistic emotional and cognitive well-being.",
+                        "Visual arts engagement significantly enhances spatial reasoning and strengthens connections between the motor cortex and emotional processing centres. Emotionally, it serves as a \"safe container\" for externalizing complex feelings that are often difficult to verbalize. This process reduces cortisol levels (stress) and promotes a state of \"flow\", essential for cognitive well-being and trauma-informed healing",
                 },
                 {
-                    heading: "Visual Arts Forms and Modes Explored",
+                    heading: "Genres & Exploration",
                     content:
-                        "In Aakar, learners experiment with varied art forms matched to their developmental stage, focusing on the process of creation as much as the final product:",
+                        "The curriculum prioritises process over product, encouraging tactile discovery across various media.",
                     listItems: [
-                        { description: "Dry & Wax Media: Utilizing Oil Crayons, pastels, and charcoal to explore blending, layering, and tactile pressure." },
-                        { description: "Fluid Media: Experimenting with Tempera for bold, opaque expression and Watercolors for transparency, flow, and emotional release." },
-                        { description: "Mixed Media & Collage: Combining found objects, papers, and textures to encourage problem-solving and the integration of diverse ideas." },
-                        { description: "Three-Dimensional Art: Engaging with clay and recycled elements to explore spatial awareness and metaphorical representation." },
-                        { description: "Reflective & Narrative Art: A core practice where learners engage in verbal or written reflection on what they created and why, connecting their work to their inner world." },
-                        { description: "Collaborative & Community Art: Working on Collaborative Murals and group installations to build shared vision and collective identity." },
+                        { description: "Fluid Media (Watercolours, tempera)" },
+                        { description: "Dry & Wax Media (Pastels, Charcoal) for tactile pressure, and Three-Dimensional Art (Clay, Sculpture) for spatial awareness." },
+                        { description: "Mixed Media" },
+                        { description: "Reflective & Narrative Art" },
+                        { description: "Collaborative and community Murals, etc." },
                     ],
-                },
-                {
-                    content: "Learners are encouraged to view art as a language—one they can use to process information, generate unique solutions, and articulate their personal narrative without the pressure of verbal performance.",
-                },
-                {
-                    heading: "Unique Aspects of Aakar",
-                    content: "",
-                    listItems: [
-                        { description: "Prioritizes Process Over Product: The focus is on the therapeutic value of creation, encouraging self-discovery and risk-taking without judgment." },
-                        { description: "Utilizes a Trauma-Informed Framework: Practices ensure a feeling of emotional safety and trust, allowing for vulnerable self-expression and gentle emotional processing through art." },
-                        { description: "Emphasizes Nonverbal Communication: Aakar provides a critical alternative pathway for expression, particularly for learners who struggle with verbal articulation or complex emotions." },
-                        { description: "Adopts a Whole Child Framework: The program supports cognitive, emotional, social, and aesthetic development through integrated, hands-on learning experiences." },
-                        { description: "Fosters Metaphorical Thinking: Learners use materials and artistic choices to externalize, understand, and metaphorically address internal and external challenges." },
-                        { description: "Incorporates SEL Principles (Casel & NEP 2024): Activities are designed to build self-management, responsible decision-making, and relationship skills through shared creative engagement and reflection." },
-                    ],
-                },
-                {
-                    content: "Aakar empowers learners to discover the artistic language of the self, using visual creation as a profound tool for mental clarity, emotional healing, and building lifelong well-being.",
                 },
             ],
         },
@@ -194,51 +405,35 @@ export const programContent = [
             {
                 id: "3-5",
                 label: "Age 3-5",
-                curriculumOverview: "In collaboration with ArtSparks Foundation, this curriculum introduces early learners (ages 3-5) to:",
-                curriculumList: [
-                    "Sensory exploration using high-tactile materials like oil crayons and tempera.",
-                    "Foundational motor skill development through playful experimentation with color and shape.",
-                    "Introductory reflection, helping children begin to name the 'feeling' of their artwork.",
-                    "Collaborative play through shared paper and group mark-making.",
-                ],
+                curriculumOverview: "Focuses on sensory-motor engagement, \"mark-making,\" and the joy of tactile discovery.",
+                curriculumList: [],
                 goalsTitle: "",
-                goalsList: [
-                    "Sensory Discovery: Explore the 'smush' of oil crayons and the 'flow' of tempera paint.",
-                    "Develop Fine Motor Control: Practice 'pincer' grips with brushes and tools.",
-                    "Begin Reflective Practice: Use simple prompts to help children explain what their colors represent (e.g., 'This yellow is my happy sun').",
-                    "Foster Social Interaction: Participate in collaborative art where peers share a single large canvas to build early cooperation.",
-                ],
+                goalOverview: "Development of fine motor skills; association of colors/textures with basic emotions.",
+                goalsList: [],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional intelligence and self-regulation.",
-                            "Improved focus and cognitive development.",
-                            "Cultural awareness and appreciation.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "A turn-key music curriculum aligned with NEP goals.",
-                            "Supports holistic student development.",
-                            "Easy integration into existing schedules.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Regular updates on child's musical progress.",
-                            "Tools to support emotional bonding at home.",
-                            "A safe space for creative expression.",
+                            "Gross Motor & Sensory Integration: Using large-scale movements to paint or sculpt helps integrate gross motor coordination with sensory input.",
+                            "Sensory Grounding: Tactile engagement with clay and paint reduces anxiety and builds \"visual confidence.\"",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Comprehensive lesson plans and resources.",
-                            "Professional development workshops.",
-                            "Structured frameworks for assessment.",
+                            "Provides non-verbal tools to observe a child's energy levels and emotional state through their choice of pressure and colour.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Promotes a rich, developmentally appropriate sensory environment that respects early physical milestones.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Offers a window into the child’s burgeoning imagination and physical motor progress.",
                         ],
                     },
                 ],
@@ -246,51 +441,36 @@ export const programContent = [
             {
                 id: "6-8",
                 label: "Age 6-8",
-                curriculumOverview: "This curriculum, supported by the ArtSparks pedagogy, introduces young children (ages 6-8) to:",
-                curriculumList: [
-                    "Foundational techniques in watercolor and collage layering.", 
-                    "Purposeful creation, moving from 'messy play' to intentional storytelling.",
-                    "Reflective dialogue, encouraging learners to think about their choices of color and form.",
-                    "Structured collaboration through group murals and shared projects.",
-                ],
+                curriculumOverview: "Transitioning toward symbolic representation, collaborative art-making, and emotional mapping.",
+                curriculumList: [],
                 goalsTitle: "",
-                goalsList: [
-                    "Master Material Basics: Learn the difference between the opacity of tempera and the transparency of watercolors.", 
-                    "Build Narrative through Collage: Use collage to piece together personal stories and 'identity maps'.",
-                    "Enhance Reflective Thinking: Introduce 'The Artist’s Why'—a short reflection on why they chose specific materials to express a specific mood.", 
-                    "Cultivate Teamwork: Work on collaborative art pieces that require negotiation and shared space.",
-                ],
+                goalOverview: "Collaborative literacy (murals); using symbols to represent social feelings.",
+                goalsList: [],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional intelligence and self-regulation.",
-                            "Improved focus and cognitive development.",
-                            "Cultural awareness and appreciation.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "A turn-key music curriculum aligned with NEP goals.",
-                            "Supports holistic student development.",
-                            "Easy integration into existing schedules.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Regular updates on child's musical progress.",
-                            "Tools to support emotional bonding at home.",
-                            "A safe space for creative expression.",
+                            "Executive Function & Spatial Logic: The process of planning a visual composition strengthens the brain’s ability to organize complex tasks and improves \"Visual Attention,\" helping students filter out distractions.",
+                            "Social Synchrony: Working on group installations builds the \"visual listening\" skills required for empathy.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Comprehensive lesson plans and resources.",
-                            "Professional development workshops.",
-                            "Structured frameworks for assessment.",
+                            "Acts as a mediator for classroom social dynamics, allowing children to work through conflicts metaphorically on paper.",
+                        ],
+                    },
+
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Creates a visible culture of inclusion and shared identity through community art displays.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Provides a deeper understanding of the child’s social world and their growing ability to focus on complex tasks.",
                         ],
                     },
                 ],
@@ -298,51 +478,35 @@ export const programContent = [
             {
                 id: "9-12",
                 label: "Age 9-12",
-                curriculumOverview: "This curriculum emphasizes developing a:",
-                curriculumList: [
-                    "Strong personal voice using advanced mixed media and oil crayon techniques.", 
-                    "Deep reflective practice, utilizing the ArtSparks framework to use art as a mirror for self-identity.",
-                    "Advanced collaboration, where students co-create art that addresses community themes.",
-                    "Technical mastery of layering and blending across different fluid and dry media.",
-                ],
+                curriculumOverview: "Moving into metaphorical thinking, project-based narratives, and technical refinement.",
+                curriculumList: [],
                 goalsTitle: "",
-                goalsList: [
-                    "Explore Technical Contrast: Use oil crayons as a resist for watercolors to explore complex visual textures.", 
-                    "Deepen Reflective Art: Maintain an 'Artist Journal' to document the 'What' (technique) and 'Why' (emotional intent) of every piece.",
-                    "Promote Problem Solving: Use collage and mixed media to 'repair' or transform mistakes into new ideas.", 
-                    "Support Social Resilience: Lead collaborative art projects that require empathy and group problem-solving.",
-                ],
+                goalOverview: "Metaphorical mastery; mastering technical tools like perspective and composition.",
+                goalsList: [],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional intelligence and self-regulation.",
-                            "Improved focus and cognitive development.",
-                            "Cultural awareness and appreciation.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "A turn-key music curriculum aligned with NEP goals.",
-                            "Supports holistic student development.",
-                            "Easy integration into existing schedules.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Regular updates on child's musical progress.",
-                            "Tools to support emotional bonding at home.",
-                            "A safe space for creative expression.",
+                            "Personal Agency: Gaining a sense of ownership over their \"Visual Identity\" and personal narrative.",
+                            "Executive Function: Planning and executing long-term art projects strengthens organizational skills and goal-setting.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Comprehensive lesson plans and resources.",
-                            "Professional development workshops.",
-                            "Structured frameworks for assessment.",
+                            "Facilitates high-level critical thinking and creative problem-solving by moving from instructor to mentor.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Incubates student leaders who can communicate complex ideas and school values visually.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Insight into the pre-teen’s evolving values and internal complexities during a critical transition period.",
                         ],
                     },
                 ],
@@ -350,51 +514,35 @@ export const programContent = [
             {
                 id: "13-15",
                 label: "Age 13-15",
-                curriculumOverview: "This curriculum for ages 13-15 focuses on:",
-                curriculumList: [
-                    "Sophisticated advocacy through conceptual mixed media and large-scale murals.",
-                    "Critical reflection, analyzing the intersection of personal narrative and social issues.",
-                    "Mastery of the 'Why', using watercolors, tempera, and collage as tools for psychological expression.",
-                    "Leadership in art, guided by ArtSparks principles to lead collaborative initiatives that leave a mark on their community.",
-                ],
+                curriculumOverview: "Using visual arts for social commentary, advocacy, and sustained self-care.",
+                curriculumList: [],
                 goalsTitle: "",
-                goalsList: [
-                    "Refine Visual Mastery: Use oil crayons and tempera for high-impact, professional-grade expressive works.", 
-                    "Integrate Critical Reflection: Produce 'Artist Statements' that delve into the symbolism and social commentary within their work.",
-                    "Foster Advocacy: Use collaborative art to address social justice, environmental, or identity-based themes.",
-                    "Support Mental Well-being: Utilize reflective art as a lifelong tool for processing adolescent transitions and stress.",
-                ],
+                goalOverview: "Creative advocacy; mastering art as a lifelong sustainable well-being practice.",
+                goalsList: [],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional intelligence and self-regulation.",
-                            "Improved focus and cognitive development.",
-                            "Cultural awareness and appreciation.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "A turn-key music curriculum aligned with NEP goals.",
-                            "Supports holistic student development.",
-                            "Easy integration into existing schedules.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Regular updates on child's musical progress.",
-                            "Tools to support emotional bonding at home.",
-                            "A safe space for creative expression.",
+                            "Civic Agency: Developing a sense of purpose by using visual media to influence community narratives.",
+                            "Emotional Autonomy: Using art as a \"self-authored\" tool for regulating stress and navigating adult complexities.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Comprehensive lesson plans and resources.",
-                            "Professional development workshops.",
-                            "Structured frameworks for assessment.",
+                            "Mentoring the student in the ethics of storytelling and the impact of visual advocacy.",
+                        ],
+                    },
+                    {
+                        title: "For Schools",
+                        content: [
+                            "Showcasing student-led advocacy that demonstrates the school's commitment to social-emotional excellence.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Confidence in the teen’s emotional maturity and their ability to use healthy outlets for self-regulation.",
                         ],
                     },
                 ],
@@ -406,26 +554,34 @@ export const programContent = [
         id: "akshar",
         bgColor: "#F3FFEB",
         iwt: {
-            title: "Akshar Writing Pedagogy Program Description",
+            title: "Akshar (Writing-Based Program)",
             illustrationUrl: assets.Akshar,
             description:
-                "Akshar is a dynamic, immersive writing program that guides learners through a rich spectrum of writing forms. Through exploration, learners develop critical thinking, emotional literacy, and cultural awareness in a nurturing, supportive environment.",
+                "Akshar is a reflective writing program that empowers children to explore their inner worlds and strengthen self-awareness. By nurturing a child’s unique narrative voice, Akshar transforms writing from a functional skill into a creative tool for emotional processing, storytelling, and personal agency.",
             sections: [
                 {
-                    heading: "Cognitive and Emotional Foundations",
+                    heading: "Neurological & Emotional Foundations",
                     content:
-                        "Research underscores that writing enhances language development, executive functioning, memory consolidation, and emotional regulation.",
+                        "Writing helps \"linearise\" complex, multi-layered thoughts, aiding cognitive organisation and executive function. Emotionally, the act of journaling or storytelling allows children to externalise internal conflicts, providing a sense of distance and mastery over their emotions. This process strengthens the \"narrative self,\" which is essential for building a coherent understanding of identity and long-term psychological resilience.",
                 },
                 {
-                    heading: "Writing Genres and Styles Explored",
-                    content:
-                        "In Akshar, learners discover and engage with a broad range of writing forms and genres tailored to their age and developmental stage, including:",
+                    heading: "Genres & Exploration",
+                    content:(
+                        <>
+                            The curriculum moves writing beyond the desk through {" "}<span className="font-semibold">tactile discovery.</span>{" "}
+                            By experimenting with varied "textures" of language—from the rhythm of a letter to the self to the structure of a collaborative narrative—children learn that the pen is a physical tool for emotional grounding and personal agency.                        
+                        </>
+                    ),
                     listItems: [
-                        { description: "Factual Writing" },
-                        { description: "Creative Storytelling" },
-                        { description: "Poetry and Lyricism" },
-                        { description: "Prose and Reflective Writing" },
-                        { description: "Advocacy and Opinion Writing" },
+                        { description: "Sensory Journaling" },
+                        { description: "Metaphorical Map-Making" },
+                        { description: "Guided Journaling" },
+                        { description: "Poetry and Metaphor" },
+                        { description: "Narrative Fiction" },
+                        { description: "Reflective Essays" },
+                        { description: "Children engage in \"Letter Writing to the Self\"" },
+                        { description: "Collaborative storytelling" },
+                        { description: "Nature-inspired descriptive writing" },
                     ],
                 },
             ],
@@ -435,46 +591,36 @@ export const programContent = [
             {
                 id: "6-8",
                 label: "Age 6-8",
-                curriculumOverview: "This curriculum introduces young children (ages 6-8) to:",
+                curriculumOverview: "Focuses on the transition from oral storytelling to written expression, using simple structures to explore identity.",
                 curriculumList: [
-                    "Foundational writing and storytelling skills",
-                    "Creates a safe, supportive environment where learners develop early literacy, emotional awareness, creativity, and social skills",
-                    "Nurtures curiosity and self-expression",
-                    "Build resilience, self-confidence, and mindful focus",
+                    "Key Themes: Character-building based on emotions, \"Feeling Journals,\" and collaborative group stories",
                 ],
-                // goalsTitle: "Goals and Learning Outcomes",
-                goalsList: [
-                    "Foster Emotional Safety and Trust: Establish a nurturing space where children feel secure to explore their ideas and emotions.",
-                    "Build Foundational Writing Skills: Develop letter formation, vocabulary, sentence construction, and early literacy.",
-                    "Encourage Emotional Expression: Support children in identifying and expressing feelings through writing, drawing, and storytelling",
-                    "Stimulate Creativity and Imagination: Inspire playful exploration of narratives and personal stories",
-                    "Cultivate Positive Social Interaction: Promote respectful collaboration and empathy among peers",
-                    "Integrate Mindfulness and Focus: Introduce simple mindfulness and emotional regulation practices to enhance learning readiness",
-                    "Strengthen Self-Identity and Confidence: Foster a positive sense of self rooted in strengths and achievements",
-                ],
+                goalsTitle: "Goals and Learning Outcomes",
+                goalOverview: "Cognitive Literacy (sequencing events and cause-effect); identifying personal \"Values\" through story characters.",
+                goalsList: [],
                 benefits: [
                     {
-                        title: "For Children",
+                        title: "For Students",
                         content: [
-                            "Gain early literacy and expressive skills in a supportive environment that nurtures emotional well-being, creativity, and social confidence.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Witness their child’s growth in communication, emotional understanding, and enthusiasm for learning and self-expression.",
+                            "Builds confidence in their \"voice\" and helps them organize thoughts that feel scattered or overwhelming.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Access trauma-informed, strength-based pedagogical strategies that enhance student engagement and nurture a positive learning climate.",
+                            "Provides a window into the child's social perceptions and language development through their creative narratives.",
                         ],
                     },
                     {
                         title: "For Schools",
                         content: [
-                            "Build a foundation of whole child development, fostering early academic success alongside emotional and social growth.",
+                            "Fosters a culture of \"Listening and Sharing\" where every child’s story is valued as part of the community fabric.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Gains insight into the child's daily experiences and social interactions through their written reflections.",
                         ],
                     },
                 ],
@@ -482,46 +628,36 @@ export const programContent = [
             {
                 id: "9-12",
                 label: "Age 9-12",
-                curriculumOverview: "This curriculum emphasizes developing a: ",
+                curriculumOverview: "Shifts toward metaphorical writing and project-based long-form narratives.",
                 curriculumList: [
-                    "Strong personal voice, advanced storytelling techniques, and emotional literacy.",
-                    "Reflective and creative writing.",
-                    "Nurtures critical thinking, empathy, collaboration, and cultural awareness.",
-                    "Build resilience, self-confidence, and a sense of identity.",
+                    "Key Themes: Metaphorical self-portraits in words, \"The Hero’s Journey\" as a tool for resilience, and observational journaling.",
                 ],
-                // goalsTitle: "Goals and Learning Outcomes:",
-                goalsList: [
-                    "Enhance Emotional Safety and Trust: Maintain nurturing spaces where learners feel confident to explore complex ideas and emotions through writing.",
-                    "Advance Writing and Literacy Skills: Develop structured writing abilities including narrative, descriptive, and persuasive forms, with improved grammar and vocabulary.",
-                    "Foster Emotional Awareness and Expression: Encourage thoughtful exploration of feelings and personal experiences using writing and reflection.",
-                    "Promote Creative Storytelling and Lyricism: Inspire imaginative and meaningful story construction drawing from identity, culture, and social themes.",
-                    "Build Collaborative Skills: Engage learners in peer feedback, group writing projects, and respectful dialogue to strengthen social connection.",
-                    "Support Mindfulness and Resilience: Integrate strategies for coping, focus, and emotional regulation to enhance wellness and concentration.",
-                    "Cultivate Identity and Cultural Appreciation: Help students recognize diverse perspectives and celebrate their own heritage through writing.",
-                ],
+                goalsTitle: "Goals and Learning Outcomes:",
+                goalOverview: "Metacognition (reflecting on one's own thoughts); mastering the use of Metaphor to describe complex internal states.",
+                goalsList: [],
                 benefits: [
                     {
-                        title: "For Children",
+                        title: "For Students",
                         content: [
-                            "Develop advanced literacy and critical thinking skills while nurturing emotional depth, creativity, and cultural understanding.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "See their child’s growing ability to communicate complex thoughts and emotions, with reinforced social skills and self-esteem.",
+                            "Develops a strong sense of Personal Agency as they learn to author their own stories and navigate pre-teen complexities.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Gain frameworks to support trauma-informed, engaging, and culturally responsive writing instruction that fosters student voice and resilience.",
+                            "Facilitates deep critical thinking by encouraging students to analyze the motives and emotions of the characters they create.",
                         ],
                     },
                     {
                         title: "For Schools",
                         content: [
-                            "Strengthen holistic development and academic achievement through a curriculum that integrates social-emotional learning with literacy.",
+                            "Incubates students who are articulate and self-aware, leading to more empathetic peer leaders.",
+                        ],
+                    },
+                    {
+                        title: "For Parents",
+                        content: [
+                            "Provides a bridge for deeper conversation with their pre-teen as they explore themes of identity and values.",
                         ],
                     },
                 ],
@@ -530,188 +666,36 @@ export const programContent = [
             {
                 id: "13-15",
                 label: "Age 13-15",
-                curriculumOverview: "This curriculum for ages 13-15 focuses on empowering adolescents to: ",
+                curriculumOverview: "Using writing as a tool for social commentary, advocacy, and sustained mental well-being. ",
                 curriculumList: [
-                    "Refine their writing and critical thinking.",
-                    "Prioritize identity exploration, emotional complexity, and deeper storytelling techniques.",
-                    "Engage thoughtfully with social issues, cultural heritage, and personal narratives while honing expressive, analytical, and collaborative writing skills.",
-                    "Support emotional resilience, self-reflection, and leadership.",
+                    "Key Themes: Persuasive essays on community issues, \"Poetry Slam\" for advocacy, and trauma-informed reflective journaling.",
                 ],
-                // goalsTitle: "Goals and Learning Outcomes:",
-                goalsList: [
-                    "Maintain Safe, Trusting Environments: Support spaces where adolescents feel safe to explore complex thoughts and emotions through writing.",
-                    "Refine Writing Mastery: Develop sophisticated writing techniques including argumentation, exposition, creative nonfiction, and poetry.",
-                    "Deepen Emotional Intelligence and Expression: Enable nuanced exploration of self and societal issues using diverse literary forms.",
-                    "Encourage Social Awareness and Advocacy: Foster critical engagement with social justice themes and personal responsibility in writing.",
-                    "Foster Collaborative and Leadership Skills: Promote peer review, cooperative projects, and leadership in literary initiatives.",
-                    "Support Mental Well-being: Integrate coping strategies, mindfulness, and reflective writing to sustain emotional health.",
-                    "Celebrate Cultural Identity and Diversity: Strengthen appreciation for diverse backgrounds and voices within personal and community narratives.",
-                ],
-                benefits: [
-                    {
-                        title: "For Adolescents",
-                        content: [
-                            "Gain sophisticated writing, critical thinking, and emotional skills that prepare them for academic challenges and social responsibility.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Observe increased maturity, self-awareness, and purposeful communication in their children’s personal and academic lives.",
-                        ],
-                    },
-                    {
-                        title: "For Teachers",
-                        content: [
-                            "Access strategies to guide trauma-informed, socially conscious writing instruction that nurtures student voice and leadership.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "Enhance student engagement and achievement through a curriculum that fuses literacy with emotional and social empowerment.",
-                        ],
-                    },
-                ],
-            },
-        ],
-    },
-
-    {
-        id: "varna",
-        bgColor: "#EFFCFF",
-        iwt: {
-            title: "Varna Storytelling Pedagogy Program Description",
-            illustrationUrl: assets.Akshar,
-            description:
-                "Varna is an engaging, immersive storytelling program that invites learners to explore the art of narrative across oral, written, and performative forms.",
-            sections: [
-                {
-                    heading: "Cognitive and Emotional Foundations",
-                    content:
-                        "Research highlights that storytelling enhances memory, language development, social cognition, and emotional intelligence.",
-                },
-                {
-                    heading: "Storytelling Forms and Modes Explored",
-                    content:
-                        "In Varna, learners engage with multiple storytelling modes matched to their developmental levels, including:",
-                    listItems: [
-                        { description: "Oral Storytelling and Performance" },
-                        { description: "Written Narratives" },
-                        { description: "Digital Storytelling and Multimedia" },
-                        { description: "Cultural and Community Narratives" },
-                        { description: "Collaborative Storytelling" },
-                    ],
-                },
-                {
-                    content: "Children will experiment with instruments such as:",
-                    listItems: [
-                        { description: "Percussion (mridangam, tabla, djembe, tambourine)" },
-                        { description: "Melody instruments (harmonium, flute, keyboard)" },
-                        { description: "Vocal exercises to develop pitch and breath control" },
-                        { description: "Body percussion and digital tools for sound creation" },
-                    ],
-                },
-            ],
-        },
-
-        ageGroups: [
-            {
-                id: "3-5",
-                label: "Age 3-5",
-                curriculumOverview: "At every stage, participants engage with core thematic areas...",
-                curriculumList: [
-                    "Emotional 'Continents' Exploration",
-                    "Body & Breath Awareness",
-                    "Sound & Rhythm Foundations",
-                ],
-                goalsTitle: "Through playful and embodied musical experiences, children begin to:",
-                goalsList: [
-                    "Recognize and explore basic emotions through sound and movement.",
-                    "Develop early breath control and body awareness.",
-                ],
+                goalsTitle: "Goals and Learning Outcomes:",
+                goalOverview: "Civic Agency (using the pen for social change); Sustainable Self-Care through regular reflective writing practices.",
+                goalsList: [],
                 benefits: [
                     {
                         title: "For Students",
                         content: [
-                            "Enhanced emotional literacy as children identify and express feelings safely.",
-                            "Improved motor coordination and breath awareness supporting overall physical development.",
-                            "Early cognitive gains through active listening and pattern recognition in music.",
-                            "Fostered creativity via movement and sound play, sparking curiosity and joy.",
-                            "Development of cooperation and turn-taking in group musical activities.",
-                        ],
-                    },
-                    {
-                        title: "For Schools",
-                        content: [
-                            "Creates an engaging, calming classroom atmosphere supportive of focused learning.",
-                            "Reduces behavioral disruptions by channeling energy into structured, playful musical expression.",
-                            "Supports early childhood education goals aligned with national frameworks like NEP 2024’s SEL emphasis.",
-                            "Equips teachers with novel, child-centered tools for holistic development.",
-                        ],
-                    },
-                    {
-                        title: "For Parents",
-                        content: [
-                            "Provides children with joyful, meaningful experiences that nurture emotional and sensory growth.",
-                            "Invites parental involvement through reflection and celebration activities, strengthening bonds.",
-                            "Offers accessible pathways to introduce children to music without pressure or formal demands.",
+                            "Empowers the teen to use their writing as a professional-grade tool for advocacy and emotional regulation during high-stress years.",
                         ],
                     },
                     {
                         title: "For Teachers",
                         content: [
-                            "Enriches teaching repertoire with arts-infused, developmentally appropriate strategies.",
-                            "Encourages observation and responsive facilitation of children’s emotional and social cues.",
-                            "Supports professional growth through training in trauma-informed, inclusive approaches.",
-                        ],
-                    },
-                ],
-            },
-            {
-                id: "6-8",
-                label: "Age 6-8",
-                curriculumOverview: "Advanced exploration for older children...",
-                curriculumList: ["Rhythmic complexity", "Instrumental basics"],
-                goalsTitle: "This stage focuses on building the foundations of self and community, guiding children to recognize, name, and express emotions effectively. Key Outcomes:",
-                goalsList: [
-                    "Emotional Agility & Mapping",
-                    "Strengthened sense of self and belonging within a community context",
-                    "Enhanced rhythm, movement, and instrumental expression capabilities",
-                    "Greater social awareness and empathy toward peers",
-                    "Positive psychological skills supporting resilience and well-being",
-                    "Ability to collaborate in creative composition",
-                ],
-                benefits: [
-                    {
-                        title: "For Students",
-                        content: [
-                            "Develop a clearer understanding of their emotions and how to express them constructively",
-                            "Build coordination and musical skills through active rhythm and movement experiences",
-                            "Experience belonging and empathy via storytelling and social musical interactions",
-                            "Gain confidence through collaborative music creation and performance",
+                            "Shifts to a mentor role, helping the teen refine their \"public voice\" and the ethics of their storytelling.",
                         ],
                     },
                     {
                         title: "For Schools",
                         content: [
-                            "Promotes an inclusive and emotionally supportive classroom culture",
-                            "Enhances students’ social skills, reducing conflicts and improving group dynamics",
-                            "Complements language and arts curricula with experiential, developmental learning",
+                            "Showcasing student-led publications or \"Anthologies of Resilience\" that reflect the school’s high emotional and academic standards.",
                         ],
                     },
                     {
                         title: "For Parents",
                         content: [
-                            "Witness children’s emotional growth and increased social maturity",
-                            "Engage with their children’s cultural and creative exploration and celebrations",
-                        ],
-                    },
-                    {
-                        title: "For Teachers",
-                        content: [
-                            "Utilize a structured, age-appropriate arts curriculum that supports SEL goals",
-                            "Receive tools for guiding, observing, and responding to children’s emotional and social progress",
+                            "Confidence in the teen’s ability to articulate complex opinions and handle adult-level pressures with poise and reflection.",
                         ],
                     },
                 ],

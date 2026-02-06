@@ -41,27 +41,26 @@ const TeamSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-nowrap gap-[16px] md:gap-[40px] overflow-x-auto no-scrollbar max-md:px-[16px]">
+      <div className="flex flex-nowrap gap-[16px] md:gap-[40px] overflow-x-auto no-scrollbar max-md:px-[16px] md:justify-center">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="teamMember flex flex-col items-center rounded-lg gap-1"
+            className="teamMember flex flex-col items-center gap-1 w-[280px] flex-shrink-0"
           >
             <div
-              className={` mb-[8px] rounded-full flex items-center justify-center`}
+              className={`mb-[8px] flex items-center justify-center overflow-hidden`}
             >
               <Image
                 src={member.imgSrc}
                 alt={member.name}
                 width="100%"
                 unoptimized
-                height="auto"
-                className="rounded-full object-cover"
+                className="object-cover w-full h-full"
               />
-            </div>  
+            </div>
             <h3 className="font-bold text-[16px] md:text-[20px] leading-[20px]  md:leading-[26px] text-[#2C2C2C]">{member.name}</h3>
             <p className="text-[16px] leading-[24px] text-[#2C2C2C] font-normal">{member.role}</p>
-            
+
             <a
               href={member.linkedin}
               target="_blank"
