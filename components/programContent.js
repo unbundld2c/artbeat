@@ -252,7 +252,7 @@ export const programContent = [
             description: (
                 <>
                     Anand is a joyful, play-based well-being program designed to nurture a child’s natural curiosity and spontaneity. We believe that {" "}<span className="font-semibold">play is a right rather than a reward</span>{" "}
-                    —it is the essential language through which children explore the world. By centering "play" as a primary creative medium, Anand helps children build foundational resilience and social-emotional skills in a low-pressure, high-engagement environment.
+                    —it is the essential language through which children explore the world. By centering &quot;play&quot; as a primary creative medium, Anand helps children build foundational resilience and social-emotional skills in a low-pressure, high-engagement environment.
                 </>
             ),
             sections: [
@@ -566,10 +566,10 @@ export const programContent = [
                 },
                 {
                     heading: "Genres & Exploration",
-                    content:(
+                    content: (
                         <>
                             The curriculum moves writing beyond the desk through {" "}<span className="font-semibold">tactile discovery.</span>{" "}
-                            By experimenting with varied "textures" of language—from the rhythm of a letter to the self to the structure of a collaborative narrative—children learn that the pen is a physical tool for emotional grounding and personal agency.                        
+                            By experimenting with varied &quot;textures&quot; of language—from the rhythm of a letter to the self to the structure of a collaborative narrative—children learn that the pen is a physical tool for emotional grounding and personal agency.
                         </>
                     ),
                     listItems: [

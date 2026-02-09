@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Header from "@/components/Home/Header";
 import Footer from "@/components/Home/Footer";
 import { assets } from "@/Assets/assets";
@@ -72,8 +73,8 @@ export default function ReportsPage() {
                 {/* HERO SECTION */}
                 <div className="w-full flex justify-center pt-10 px-4">
                     <div className="w-full max-w-[1000px] aspect-[1000/550]">
-                        <img
-                            src={assets.reportsHero1.src}
+                        <Image
+                            src={assets.reportsHero1}
                             width={1000}
                             height={550}
                             className="w-full h-full object-cover"
