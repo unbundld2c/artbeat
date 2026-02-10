@@ -35,29 +35,29 @@ const listenFirstData = {
 
 
 
-// Explore Our Work Data
-const exploreWorkData = {
-    heading: "Explore Our Work",
-    items: [
-        {
-            img: assets.blogImage,
-            title: "Our Work with Governments",
-            hasVideo: true
-        },
-        {
-            img: assets.blogImage,
-            title: "Our Work with Governments",
-            hasVideo: true
-        },
-        {
-            img: assets.blogImage,
-            title: "Our Work with Governments",
-            hasVideo: true
-        }
-    ],
-    buttonText: "Read more",
-    buttonLink: "/coming-soon"
-};
+// // Explore Our Work Data
+// const exploreWorkData = {
+//     heading: "Explore Our Work",
+//     items: [
+//         {
+//             img: assets.blogImage,
+//             title: "Our Work with Governments",
+//             hasVideo: true
+//         },
+//         {
+//             img: assets.blogImage,
+//             title: "Our Work with Governments",
+//             hasVideo: true
+//         },
+//         {
+//             img: assets.blogImage,
+//             title: "Our Work with Governments",
+//             hasVideo: true
+//         }
+//     ],
+//     buttonText: "Read more",
+//     buttonLink: "/coming-soon"
+// };
 
 export default function Echoes() {
     return (
@@ -101,10 +101,9 @@ export default function Echoes() {
 
             {/* Explore Our Work */}
             <BlogsSection
-                title={exploreWorkData.heading}
-                blogsData={exploreWorkData.items}
-                buttonText={exploreWorkData.buttonText}
-                buttonLink={exploreWorkData.buttonLink}
+                title="Explore Our Work"
+                buttonText="Read more"
+                buttonLink="/blogs"
                 showDate={false}
                 showDesc={false}
                 playIcon={EchoesPlayIcon}
