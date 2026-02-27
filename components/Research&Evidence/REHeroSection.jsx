@@ -38,19 +38,19 @@ const REHeroSection = ({
                         </p>
                     )}
 
-                    <div className="mt-6">
+                    {/* <div className="mt-6">
                         <Link
                             href={buttonLink}
                             className="bg-[#E2725B] inline-flex items-center text-white px-[20px] py-[12px] rounded-[60px] text-[16px] leading-[16px] mt-6"
                         >
                             {buttonText}
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
             <div className={`hidden md:flex relative h-[600px] items-center ${bgDesktop}`}>
-                <div className="relative pl-[60px] max-w-[700px] z-10">
+                <div className="relative pl-[60px] lg:max-w-[550px] xl:max-w-[700px] z-10">
                     <h1 className="text-[52px] leading-[52px] text-[#2C2C2C] font-[500]">
                         {title}
                     </h1>
@@ -59,15 +59,15 @@ const REHeroSection = ({
                             {description}
                         </p>
                     )}
-                    
-                    <div className="mt-6">
+
+                    {/* <div className="mt-6">
                         <Link
                             href={buttonLink}
                             className="bg-[#E2725B] inline-flex items-center text-white px-[20px] py-[12px] rounded-[60px] text-[18px] leading-[18px]"
                         >
                             {buttonText}
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="absolute right-0 top-0 h-full flex items-center">

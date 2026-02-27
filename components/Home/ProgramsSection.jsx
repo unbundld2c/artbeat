@@ -11,8 +11,8 @@ const programs = [
   },
   {
     img: assets.Program3,
-    title: "Anand — Storytelling",
-    desc: "Anand sparks imagination and empathy by leveraging the art of storytelling to help children build emotional resilience, social connection, and expressive confidence.",
+    title: "Anand — Play-Based Pedagogy",
+    desc: "Anand is a joyful, play-based well-being program designed to nurture a child’s natural curiosity and spontaneity. We believe that play is a right rather than a reward.",
     link: "/programs#anand",
   },
   {

@@ -6,7 +6,7 @@ const soundInformsData = {
     image: assets.EchoesSoundInform,
     imageAlt: "Person wearing headphones, enjoying sound",
     title: "How Sound Informs Our Art",
-    description: "The soundscapes we gather serve as valuable contextual data for planning ArtBeat interventions. These recordings and insights help us to:",
+    description: "The soundscapes we gather serve as valuable contextual data for planning Artbeat interventions. These recordings and insights help us to:",
     points: [
         "Design Relevant Workshops: We draw inspiration from local rhythms and sound textures to inform our music, movement, and visual arts activities.",
         "Use Local Narratives: Community sound conversations provide genuine, local stories that can be the basis for theatre and storytelling projects.",

@@ -19,7 +19,7 @@ const EchoesPlayIcon = (
 const echoesHeroData = {
     desktopImage: assets.EchoesHeroDesk,
     mobileImage: assets.EchoesHeroMob,
-    title: "ArtBeat Echoes",
+    title: "Artbeat Echoes",
     subtitle: "Where the sound of creativity meets the heartbeat of our community",
     primaryButtonText: "Learn More",
     primaryButtonLink: "/coming-soon"
@@ -30,7 +30,7 @@ const listenFirstData = {
     image: assets.EchoesListenFirst,
     imageAlt: "Person listening attentively",
     title: "Listen First. Then Engage",
-    description: "ArtBeat Echoes is our focused effort to ensure ArtBeat program interventions are deeply rooted in the geographies they serve. We believe that truly impactful artistic work begins with listening. By understanding the acoustic environment—the sounds of a place—we gain critical insights into its daily life, culture, and unique rhythm."
+    description: "Artbeat Echoes is our focused effort to ensure Artbeat program interventions are deeply rooted in the geographies they serve. We believe that truly impactful artistic work begins with listening. By understanding the acoustic environment—the sounds of a place—we gain critical insights into its daily life, culture, and unique rhythm."
 };
 
 

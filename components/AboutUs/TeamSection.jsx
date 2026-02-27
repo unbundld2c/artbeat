@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const teamMembers = [
   {
-    name: "Supriya Iyengar",
-    role: "Founding Member",
+    name: "Supriya Iyer",
+    role: "Founder, CEO",
     imgSrc: assets.TeamMember1,
     linkedin: "https://www.linkedin.com/in/supriyaiyengar/",
   },
   {
     name: "Ekta Sethi",
-    role: "Founder",
+    role: "Founding Member",
     imgSrc: assets.TeamMember2,
     linkedin: "https://www.linkedin.com/in/gurekta-sethi-944373b7/",
   },

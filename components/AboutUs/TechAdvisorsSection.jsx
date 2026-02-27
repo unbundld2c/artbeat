@@ -12,13 +12,13 @@ const techAdvisors = [
         imgSrc: assets.TechAdvisor1,
         linkedinUrl: "https://www.linkedin.com/company/unbundl/posts/?feedView=all",
     },
-    {
-        id: 2,
-        name: "Swarsat K Nath",
-        title: "AI Operations Lead @ Fortis Healthcare",
-        imgSrc: assets.TechAdvisor2,
-        linkedinUrl: "https://www.linkedin.com/in/swarsat-k-nath-4a13b315a/",
-    },
+    // {
+    //     id: 2,
+    //     name: "Swarsat K Nath",
+    //     title: "AI Operations Lead @ Fortis Healthcare",
+    //     imgSrc: assets.TechAdvisor2,
+    //     linkedinUrl: "https://www.linkedin.com/in/swarsat-k-nath-4a13b315a/",
+    // },
 ];
 
 const TechAdvisorsSection = () => {

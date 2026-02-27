@@ -10,7 +10,7 @@ const principles = [
   },
   {
     title: "Developmental Alignment",
-    description: "Age-appropriate modules tailored to distinct stages of development, ensuring maximum relevance and efficacy for every child aged",
+    description: "Age-appropriate modules tailored to distinct stages of development, ensuring maximum relevance and efficacy for every child",
     image: assets.Implementation2,
     alt: "Children of different heights illustration"
   },

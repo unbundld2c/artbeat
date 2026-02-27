@@ -11,7 +11,7 @@ const OurImpact = () => {
         </h2>
 
         <p className="text-[#2C2C2C] text-[16px] md:text-[18px] leading-[26px] max-w-[750px] mx-auto mb-[20px]">
-          ArtBeat partners with schools, educators, and communities to bring 
+          Artbeat partners with schools, educators, and communities to bring 
           <b className="text-[#E2725B]"> creativity-driven wellbeing programs </b>
           that help children thrive emotionally, socially, and academically.
         </p>

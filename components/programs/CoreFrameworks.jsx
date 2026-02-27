@@ -38,7 +38,7 @@ const CoreFrameworks = () => {
       <div>
         <div className="max-md:px-[16px] text-center">
           <h2 className="text-[36px] md:text-[48px] lh-[100%] text-[#2C2C2C] font-regular mb-[8px]">
-            Our Core Methodology: The ArtBeat Trinity
+            Our Core Methodology: The Artbeat Trinity
           </h2>
           <p className="text-[16px] md:text-[20px] text-[#2C2C2C] leading-[150%] font-normal mb-[20px] md:mb-[40px]">
             We don't just teach creative art; we use it as a vehicle for human flourishing. Our curriculum is built upon <span className="font-bold">five</span> synergistic, evidence-based frameworks categorized into <span className="font-bold">three</span> pillars of impact:

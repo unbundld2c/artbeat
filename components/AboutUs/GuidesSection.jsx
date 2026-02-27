@@ -79,10 +79,10 @@ const updateState = (swiper) => {
           What Guides What We Build
         </h2>
         <p className="text-center text-[#2C2C2C] text-[16px] md:text-[20px] mx-auto">
-          Artbeat is distinguished by being neither a clinical therapy nor a traditional art class but a child-centric well-being program that
-          integrates music, visual arts, writing, and storytelling with contemporary research and endorsed practices in child development,
-          social-emotional learning (SEL), and trauma-informed care in India. Artbeat draws on current evidence and recognized educational
-          frameworks as well as learnings from leading initiatives in the country to shape its holistic approach to children’s well-being.
+          Artbeat is a rigorous, child-centric well-being program built on deep immersion 
+          in a single creative art form (music, visual arts, play, or writing). We align 
+          every program with four integrated, research-backed frameworks. This integrated 
+          model ensures a holistic approach to children's well-being across the Head, Heart, and Hand domains.
         </p>
       </div>
 

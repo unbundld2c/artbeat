@@ -28,7 +28,7 @@ export default function BenefitsOfArtbeat() {
     <section className="w-full max-md:pt-[40px] py-[0] md:py-16 px-[16px] md:px-[60px]">
       <div className="max-w-[1500px] mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-[40px]">
-          The ArtBeat Outcomes
+          The Artbeat Outcomes
         </h2>
 
         <div className="flex gap-[24px] md:gap-[40px] flex-wrap">

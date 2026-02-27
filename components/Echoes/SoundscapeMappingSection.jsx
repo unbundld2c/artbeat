@@ -22,7 +22,7 @@ const soundscapeData = {
             subtitle: "Speech, work, traffic, and community activities"
         }
     ],
-    footerText: "We are primarily interested in the Anthropophony of our target regions—the sounds that define the community—to make sure ArtBeat's presence is always relevant and connected."
+    footerText: "We are primarily interested in the Anthropophony of our target regions—the sounds that define the community—to make sure Artbeat's presence is always relevant and connected."
 };
 
 const SoundscapeMappingSection = () => {

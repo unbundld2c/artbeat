@@ -2,11 +2,11 @@
 
 const approachData = {
     heading: "Our Approach: Mapping the Local Context",
-    subheading: "ArtBeat Echoes is a collaborative effort to document and understand the unique sound profile of our intervention areas.",
+    subheading: "Artbeat Echoes is a collaborative effort to document and understand the unique sound profile of our intervention areas.",
     cards: [
         {
             title: "Simple Acoustic Documentation",
-            description: "We conduct basic field recordings and documentation within the ArtBeat program regions. This means capturing the everyday sounds of the community—the marketplace, the schoolyard, the local trades—to build an archive of the regional acoustic signature."
+            description: "We conduct basic field recordings and documentation within the Artbeat program regions. This means capturing the everyday sounds of the community—the marketplace, the schoolyard, the local trades—to build an archive of the regional acoustic signature."
         },
         {
             title: "Community Sound Conversations",
@@ -19,7 +19,7 @@ const approachData = {
         },
         {
             title: "Focusing on the Child's Experience",
-            description: "A key element is engaging with the young ArtBeat participants to understand their auditory world. We explore:",
+            description: "A key element is engaging with the young Artbeat participants to understand their auditory world. We explore:",
             bullets: [
                 "What sounds do children naturally tune into or identify with in their surroundings?",
                 "How do these familiar sounds influence their comfort and spark their creative imagination?"
