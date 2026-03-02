@@ -30,7 +30,7 @@ import FooterDesk from "./footer-desk.png";
 import FooterMob from "./footer-mob.png";
 import visionImage from "./vision-img.png";
 import missionImage from "./mission-img.png";
-import differenceImage from "./difference-img.png";
+import differenceImage from "./difference-img.webp";
 import Guide1 from "./guide1.png";
 import Guide2 from "./guide2.png";
 import Guide3 from "./guide3.png";

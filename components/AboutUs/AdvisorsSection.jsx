@@ -63,10 +63,10 @@ const AdvisorsSection = () => {
                     {advisors.map((advisor) => (
                         <div
                             key={advisor.id}
-                            className="flex flex-col items-start cursor-pointer w-[320px] md:w-auto flex-shrink-0 h-full"
+                            className="flex flex-col items-start cursor-pointer w-[260px] md:w-auto flex-shrink-0 h-full"
                             onClick={() => setSelectedAdvisor(advisor)}
                         >
-                            <div className="w-full mb-4 aspect-[4/3] overflow-hidden rounded-[24px]">
+                            <div className="w-full mb-4 aspect-[1] overflow-hidden rounded-[24px]">
                                 <Image
                                     src={advisor.imgSrc}
                                     alt={advisor.name}

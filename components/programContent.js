@@ -248,7 +248,7 @@ export const programContent = [
         bgColor: "#EFFCFF",
         iwt: {
             title: "Anand (Play-Based Program)",
-            illustrationUrl: assets.Akshar,
+            illustrationUrl: assets.Program3,
             description: (
                 <>
                     Anand is a joyful, play-based well-being program designed to nurture a child’s natural curiosity and spontaneity. We believe that {" "}<span className="font-semibold">play is a right rather than a reward</span>{" "}
@@ -372,7 +372,7 @@ export const programContent = [
         bgColor: "#F0F8FF",
         iwt: {
             title: "Aakaar (Visual Arts Program)",
-            illustrationUrl: assets.Aaroh,
+            illustrationUrl: assets.Program4,
             description: (
                 <>
                     Aakaar is an immersive, process-oriented visual arts program developed in collaboration with {" "}<span className="font-semibold">ArtSparks Foundation.</span>{" "}

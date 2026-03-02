@@ -12,7 +12,7 @@ const AdvisorPopup = ({ advisor, onClose }) => {
             onClick={onClose}
         >
             <div
-                className="relative bg-white rounded-[20px] max-w-[900px] w-full h-[700px] overflow-y-auto scrollbar-hide"
+                className="relative bg-white rounded-[20px] max-w-[900px] w-full max-h-[calc(100vh-8rem)] overflow-y-auto scrollbar-hide"
                 onClick={(e) => e.stopPropagation()}
                 style={{
                     scrollbarWidth: "none",
