@@ -62,6 +62,8 @@ const InsightsResourcesSection = () => {
                     <Link
                         key={index}
                         href={article.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-[#2C2C2C] text-[14px] md:text-[16px] leading-[130%] p-[16px] font-semibold underline decoration-solid hover:text-[#E2725B] transition-colors text-left"
                     >
                         {article.title}

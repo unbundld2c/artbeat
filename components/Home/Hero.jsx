@@ -69,6 +69,8 @@ const Hero = ({
             {showSecondaryButton && (
               <Link
                 href={secondaryButtonLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border-1 border-[#E2725B] text-[#E2725B] px-[20px] py-[10px] md:text-[18px] md:leading-[18px] text-[16px] leading-[16px] rounded-[60px] bg-white flex items-center gap-[10px]"
               >
                 {secondaryButtonText}

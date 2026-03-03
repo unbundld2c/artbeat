@@ -14,9 +14,9 @@ const frameworks = [
     title: "The Science of Emotion",
     points: [
       "Frameworks:",
-      "Atlas of Emotions: We utilize this scientific map of the five universal \"continent\" emotions—anger, fear, sadness, disgust, and enjoyment.",
-      "Positive Psychology: We focus on fostering strengths, resilience, optimism, and flourishing.",
-      "The Impact: By integrating these, we deepen emotional literacy and equip children with tools like agency and constructive coping for lifelong well-being.",
+      { text: "Atlas of Emotions: We utilize this scientific map of the five universal \"continent\" emotions—anger, fear, sadness, disgust, and enjoyment.", indent: true },
+      { text: "Positive Psychology: We focus on fostering strengths, resilience, optimism, and flourishing.", indent: true },
+      { text: "The Impact: By integrating these, we deepen emotional literacy and equip children with tools like agency and constructive coping for lifelong well-being.", indent: true },
     ],
     span: "md:col-span-2",
   },
@@ -60,15 +60,20 @@ const CoreFrameworks = () => {
                 {item.title}
               </h3>
               <ul className="space-y-3">
-                {item.points.map((point, idx) => (
-                  <li
-                    key={idx}
-                    className="flex items-start text-[#2C2C2C] text-[14px] md:text-[16px] leading-[150%] font-normal"
-                  >
-                    <span className="mr-2 mt-2 h-1 w-1 shrink-0 rounded-full bg-[#2C2C2C]" />
-                    {point}
-                  </li>
-                ))}
+                {item.points.map((point, idx) => {
+                  const text = typeof point === "object" ? point.text : point;
+                  const isIndented = typeof point === "object" && point.indent;
+                  return (
+                    <li
+                      key={idx}
+                      className={`flex items-start text-[#2C2C2C] text-[14px] md:text-[16px] leading-[150%] font-normal ${isIndented ? "ml-4" : ""
+                        }`}
+                    >
+                      <span className="mr-2 mt-2 h-1 w-1 shrink-0 rounded-full bg-[#2C2C2C]" />
+                      {text}
+                    </li>
+                  );
+                })}
               </ul>
               {item.note && (
                 <p className="mt-3 text-[#2C2C2C] text-[12px] md:text-[14px] leading-[150%] italic">

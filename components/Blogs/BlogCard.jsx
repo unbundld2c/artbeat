@@ -32,7 +32,7 @@ const BlogCard = ({ slug, image, date, readTime, title, description }) => {
                         </span>
                     </div>
 
-                    <h3 className="text-[#2C2C2C] font-semibold text-[18px] leading-[24px] mb-[8px] group-hover:text-[#E2725B] transition-colors duration-300 break-words">
+                    <h3 className="text-[#2C2C2C] font-semibold text-[18px] leading-[24px] mb-[8px] group-hover:text-[#E2725B] transition-colors duration-300 break-words !whitespace-normal">
                         {title}
                     </h3>
 
