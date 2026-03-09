@@ -23,17 +23,6 @@ const advisors = [
     },
     {
         id: 2,
-        name: "Dr. Shrinidhi Nathany",
-        title: "Senior Consultant, Pathology & Laboratory Medicine | Fortis Memorial Research Institute (FMRI)",
-        shortDesc: "Dr. Shrinidhi Nathany is a Senior Consultant at Fortis Memorial Research Institute, Gurgaon, with over a decade of clinical experience in diagnostic medicine and molecular pathology.",
-        imgSrc: assets.Advisor2,
-        fullBio: `Dr. Shrinidhi Nathany is a Senior Consultant at Fortis Memorial Research Institute, Gurgaon, 
-        with over a decade of clinical experience in diagnostic medicine and molecular pathology. A recognized 
-        expert in her field, she has published extensively in international medical journals and serves as a 
-        critical bridge between clinical health standards and community-based developmental interventions.`,
-    },
-    {
-        id: 3,
         name: "Dr. Deepti Navaratna",
         title: "Neuroscientist & Musician | Principal Investigator & Senior Research Associate, NIMHANS",
         shortDesc: "Dr. Deepti Navaratna is a pioneering neuroscientist and acclaimed musician currently serving as a Principal Investigator at the National Institute of Mental Health and Neurosciences (NIMHANS), Bangalore.",
@@ -47,6 +36,17 @@ const advisors = [
         oversight, ensuring that our music and art pedagogies are rigorously mapped to neurological developmental 
         milestones and validated through clinical-grade data.`,
     },
+    {
+        id: 3,
+        name: "Dr. Shrinidhi Nathany",
+        title: "Senior Consultant, Pathology & Laboratory Medicine | Fortis Memorial Research Institute (FMRI)",
+        shortDesc: "Dr. Shrinidhi Nathany is a Senior Consultant at Fortis Memorial Research Institute, Gurgaon, with over a decade of clinical experience in diagnostic medicine and molecular pathology.",
+        imgSrc: assets.Advisor2,
+        fullBio: `Dr. Shrinidhi Nathany is a Senior Consultant at Fortis Memorial Research Institute, Gurgaon, 
+        with over a decade of clinical experience in diagnostic medicine and molecular pathology. A recognized 
+        expert in her field, she has published extensively in international medical journals and serves as a 
+        critical bridge between clinical health standards and community-based developmental interventions.`,
+    }
 ];
 
 const AdvisorsSection = () => {
@@ -63,8 +63,7 @@ const AdvisorsSection = () => {
                     {advisors.map((advisor) => (
                         <div
                             key={advisor.id}
-                            className="flex flex-col items-start cursor-pointer w-[260px] md:w-auto flex-shrink-0 h-full"
-                            onClick={() => setSelectedAdvisor(advisor)}
+                            className="flex flex-col items-start w-[260px] md:w-auto flex-shrink-0 h-full"
                         >
                             <div className="w-full mb-4 aspect-[1] overflow-hidden rounded-[24px]">
                                 <Image
@@ -79,7 +78,10 @@ const AdvisorsSection = () => {
                             </h3>
                             <p className="text-left text-[14px] md:text-[16px] leading-[24px] text-[#2C2C2C]">
                                 {advisor.shortDesc}{" "}
-                                <span className="text-[#E2725B] font-bold text-[14px] md:text-[16px] leading-[24px] border-b-[1px] border-[#E2725B]">
+                                <span
+                                    className="text-[#E2725B] font-bold text-[14px] md:text-[16px] leading-[24px] border-b-[1px] border-[#E2725B] cursor-pointer"
+                                    onClick={() => setSelectedAdvisor(advisor)}
+                                >
                                     Read more...
                                 </span>
                             </p>

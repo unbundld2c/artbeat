@@ -38,7 +38,7 @@ const stakeholderData = [
     {
         bg: assets.greenBgShape,
         title: "Teachers",
-        text: "Children learn to identify and manage their emotions through creative art.",
+        text: "Serve as trained facilitators, creating a nurturing environment and ensuring program sustainability.",
         img: assets.StakeholderTeachers
     },
     {
@@ -139,7 +139,7 @@ export default function StakeholderRoles() {
                     <SideCard
                         bg={assets.greenBgShape}
                         title="Teachers"
-                        text="Children learn to identify and manage their emotions through creative art."
+                        text="Serve as trained facilitators, creating a nurturing environment and ensuring program sustainability."
                         img={assets.StakeholderTeachers}
                         imageRightAlign
                         textAlign="left"

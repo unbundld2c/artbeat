@@ -14,8 +14,6 @@ const MoodboardPopup = () => {
       id: 1,
       title: "Vibrant Amber",
       subtitle: "Optimism, Joy & Creative Energy",
-      mobileTitle: "Sunny Yellow",
-      mobileSubtitle: "Bright & Happy",
       image: assets.Mood1,
       bannerDesk: assets.HeroDesk, // Default banner
       bannerMob: assets.HeroMob,
@@ -24,8 +22,6 @@ const MoodboardPopup = () => {
       id: 2,
       title: "Inky Violet",
       subtitle: "Tired, Sad, or Disappointed.",
-      mobileTitle: "Creative Purple",
-      mobileSubtitle: "Curious & Imaginative",
       image: assets.Mood2,
       bannerDesk: assets.VioletHeroDesk,
       bannerMob: assets.VioletHeroMob,
@@ -34,8 +30,6 @@ const MoodboardPopup = () => {
       id: 3,
       title: "Deep Serenity",
       subtitle: "Calm, Peaceful & Centered",
-      mobileTitle: "Calm Blue",
-      mobileSubtitle: "Quiet & Peaceful",
       image: assets.Mood3,
       bannerDesk: assets.BlueHeroDesk,
       bannerMob: assets.BlueHeroMob,
@@ -44,8 +38,6 @@ const MoodboardPopup = () => {
       id: 4,
       title: "Cloud Grey",
       subtitle: "Neutral, Unsure & Private.",
-      mobileTitle: "Playful Green",
-      mobileSubtitle: "Bouncy & Energetic",
       image: assets.Mood4,
       bannerDesk: assets.GreyHeroDesk,
       bannerMob: assets.GreyHeroMob,
@@ -146,21 +138,10 @@ const MoodboardPopup = () => {
                 />
               </div>
               <div className="px-0 pt-[16px] md:pt-[8px] pb-[14px] md:pb-[12px]">
-                {/* Mobile Title */}
-                <h3 className="block md:hidden text-[16px] font-bold text-[#2c2c2c] mb-1 text-center leading-[130%]">
-                  {mood.mobileTitle}
-                </h3>
-                {/* Desktop Title */}
-                <h3 className="hidden md:block text-[16px] font-bold text-[#2c2c2c] mb-1 text-center leading-[130%]">
+                <h3 className="text-[16px] font-bold text-[#2c2c2c] mb-1 text-center leading-[130%]">
                   {mood.title}
                 </h3>
-
-                {/* Mobile Subtitle */}
-                <p className="block md:hidden text-[14px] font-regular text-[#2c2c2c] m-0 text-center leading-[150%]">
-                  {mood.mobileSubtitle}
-                </p>
-                {/* Desktop Subtitle */}
-                <p className="hidden md:block text-[14px] font-regular text-[#2c2c2c] m-0 text-center leading-[150%]">
+                <p className="text-[14px] font-regular text-[#2c2c2c] m-0 text-center leading-[150%]">
                   {mood.subtitle}
                 </p>
               </div>
