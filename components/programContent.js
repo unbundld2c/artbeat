@@ -367,6 +367,7 @@ export const programContent = [
         ],
     },
 
+/*
     {
         id: "aakaar",
         bgColor: "#F0F8FF",
@@ -549,6 +550,7 @@ export const programContent = [
             },
         ],
     },
+    */
 
     {
         id: "akshar",

@@ -3,30 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { getBlogsSummary } from "@/data/blogData";
 
-// const defaultBlogs = [
-//   {
-//     img: assets.blogImage,
-//     title: "Our Work with Governments",
-//     desc: "We work with the government to find solutions for pesky problems in education. We mainstream our Story Pedagogy™ to make learning fun in government schools.",
-//     date: "July 6 2023",
-//     read: "2min Read"
-//   },
-//   {
-//     img: assets.blogImage,
-//     title: "Our Work with Governments",
-//     desc: "We work with the government to find solutions for pesky problems in education. We mainstream our Story Pedagogy™ to make learning fun in government schools.",
-//     date: "July 6 2023",
-//     read: "2min Read"
-//   },
-//   {
-//     img: assets.blogImage,
-//     title: "Our Work with Governments",
-//     desc: "We work with the government to find solutions for pesky problems in education. We mainstream our Story Pedagogy™ to make learning fun in government schools.",
-//     date: "July 6 2023",
-//     read: "2min Read"
-//   }
-// ];
-
 const BlogsSection = ({
   title = "Blogs",
   buttonText = "Read more",
@@ -50,13 +26,13 @@ const BlogsSection = ({
             href={`/blogs/${blog.slug}`}
             className="blog-card flex-1 flex flex-col overflow-hidden bg-white min-w-[280px] cursor-pointer group"
           >
-            <div className="w-full relative">
+            <div className="w-full aspect-[4/3] relative overflow-hidden">
               <Image
                 src={blog.image}
                 alt={blog.title}
+                fill
                 unoptimized
-                className="w-full h-auto"
-                style={{ objectFit: "cover" }}
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
               {(playIcon || blog.hasVideo) && (
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -94,15 +70,15 @@ const BlogsSection = ({
           </Link>
         ))}
       </div>
-        <div className="flex justify-center md:mt-[40px] mt-[24px]">
-          <Link href={buttonLink} className="bg-[#E2725B] rounded-[60px] text-white font-medium md:text-[18px] md:leading-[18px] text-[16px] leading-[16px] py-[10px] px-[20px] flex items-center gap-[10px]">
-            {buttonText}
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-              <path d="M22.5 12C22.5 17.5228 18.0228 22 12.5 22C6.97715 22 2.5 17.5228 2.5 12C2.5 6.47715 6.97715 2 12.5 2C18.0228 2 22.5 6.47715 22.5 12Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M15.5001 12.0001H8.5M13.0002 8.5C13.0002 8.5 16.5001 11.0777 16.5001 12C16.5001 12.9224 13.0002 15.5 13.0002 15.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </Link>
-        </div>
+      <div className="flex justify-center md:mt-[40px] mt-[24px]">
+        <Link href={buttonLink} className="bg-[#E2725B] rounded-[60px] text-white font-medium md:text-[18px] md:leading-[18px] text-[16px] leading-[16px] py-[10px] px-[20px] flex items-center gap-[10px]">
+          {buttonText}
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+            <path d="M22.5 12C22.5 17.5228 18.0228 22 12.5 22C6.97715 22 2.5 17.5228 2.5 12C2.5 6.47715 6.97715 2 12.5 2C18.0228 2 22.5 6.47715 22.5 12Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M15.5001 12.0001H8.5M13.0002 8.5C13.0002 8.5 16.5001 11.0777 16.5001 12C16.5001 12.9224 13.0002 15.5 13.0002 15.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </Link>
+      </div>
     </section>
   );
 };

@@ -86,7 +86,7 @@ const Footer = () => {
                     />
                   </svg>
                 </a>
-                <a href="#" aria-label="YouTube">
+                <a href="https://www.youtube.com/@artbeatforpositivechildhood?si=UcrU_wDvS6bO33hw" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="33"
@@ -107,6 +107,32 @@ const Footer = () => {
                       d="M22.8882 16.6093C22.6721 17.4916 21.522 18.1254 19.2218 19.393C16.7199 20.7715 15.469 21.4608 14.4558 21.1953C14.1126 21.1053 13.7966 20.9471 13.5312 20.7326C12.7476 20.0991 12.7476 18.7839 12.7476 16.1535C12.7476 13.5232 12.7476 12.208 13.5312 11.5744C13.7966 11.3599 14.1126 11.2017 14.4558 11.1118C15.469 10.8462 16.7199 11.5355 19.2218 12.9141C21.522 14.1817 22.6721 14.8154 22.8882 15.6978C22.9618 15.9981 22.9618 16.3089 22.8882 16.6093Z"
                       stroke="#212121"
                       strokeWidth="2.18481"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="https://www.linkedin.com/company/artbeat-space/about/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="31"
+                    height="32"
+                    viewBox="0 0 31 32"
+                    fill="none"
+                  >
+                    <rect
+                      x="2.31048"
+                      y="3.31048"
+                      width="25.3793"
+                      height="25.3793"
+                      rx="5.51724"
+                      stroke="#212121"
+                      strokeWidth="2.2069"
+                    />
+                    <path
+                      d="M10.5 21V14M14.5 21V17.75M14.5 17.75V14M14.5 17.75C14.5 14 20.5 14 20.5 17.75V21M10.5 11.01L10.51 10.999"
+                      stroke="#212121"
+                      strokeWidth="2.18481"
+                      strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                   </svg>

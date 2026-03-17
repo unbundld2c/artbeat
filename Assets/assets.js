@@ -26,6 +26,11 @@ import outcomeMob3 from "./outcomeMob3.png";
 import outcomeMob4 from "./outcomeMob4.png";
 import outcomeMob5 from "./outcomeMob5.png";
 import blogImage from "./blogImage.png";
+import agencyOverPity from "./agency-over-pity.webp";
+import findingLight from "./finding-light.webp";
+import fromSlowProgress from "./From-slow-progress.webp";
+import blueCoconuts from "./blue-coconuts.webp";
+import philosophyOfZero from "./philosophy-of-zero.webp";
 import FooterDesk from "./footer-desk.png";
 import FooterMob from "./footer-mob.png";
 import visionImage from "./vision-img.png";
@@ -104,6 +109,7 @@ import Advisor2 from "./advisor2.webp";
 import Advisor3 from "./advisor3.webp";
 import TechAdvisor1 from "./techAdvisor1.webp";
 import TechAdvisor2 from "./techAdvisor2.webp";
+import KeyNoteLogo from "./keynote-logo.webp";
 
 export const assets = {
   logo,
@@ -134,6 +140,11 @@ export const assets = {
   outcomeMob4,
   outcomeMob5,
   blogImage,
+  agencyOverPity,
+  findingLight,
+  fromSlowProgress,
+  blueCoconuts,
+  philosophyOfZero,
   FooterDesk,
   FooterMob,
   visionImage,
@@ -212,4 +223,5 @@ export const assets = {
   Advisor3,
   TechAdvisor1,
   TechAdvisor2,
+  KeyNoteLogo,
 };

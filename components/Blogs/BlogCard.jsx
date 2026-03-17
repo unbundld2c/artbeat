@@ -14,6 +14,7 @@ const BlogCard = ({ slug, image, date, readTime, title, description }) => {
                     <Image
                         src={image}
                         alt={title}
+                        fill
                         unoptimized
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />

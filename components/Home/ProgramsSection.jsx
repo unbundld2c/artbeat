@@ -22,10 +22,10 @@ const programs = [
     link: "/programs#akshar",
   },
   {
-    img: assets.Program4,
-    title: "Aakaar — Visual Arts",
-    desc: "Aakaar uses visual arts as a medium for nonverbal communication, enabling children to process emotions, solve problems metaphorically, and enhance cognitive and emotional well-being.",
-    link: "/programs#aakaar",
+    img: assets.KeyNoteLogo,
+    title: "The Keynote Collective",
+    desc: "Supporting parents, educators, and leaders through music-based emotional regulation and resilience. We 'tune' the adult ecosystem by translating musical principles into actionable life skills for professional and home harmony.",
+    link: "/coming-soon",
   },
 ];
 

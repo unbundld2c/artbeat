@@ -61,18 +61,28 @@ export default async function BlogPost({ params }) {
                                     <h3
                                         key={index}
                                         className="text-[#2C2C2C] font-semibold text-[20px] md:text-[28px] leading-[120%] mt-[24px] md:mt-[48px] mb-[12px] md:mb-[16px] !whitespace-normal"
-                                    >
-                                        {section.text}
-                                    </h3>
+                                        dangerouslySetInnerHTML={{ __html: section.text }}
+                                    />
                                 );
                             case "paragraph":
                                 return (
                                     <p
                                         key={index}
                                         className="text-[#2C2C2C] font-normal text-[16px] md:text-[18px] leading-[28px] md:leading-[32px] mb-[16px] md:mb-[24px]"
-                                    >
-                                        {section.text}
-                                    </p>
+                                        dangerouslySetInnerHTML={{ __html: section.text }}
+                                    />
+                                );
+                            case "list":
+                                return (
+                                    <ul key={index} className="list-disc ml-[40px] mb-[24px]">
+                                        {section.items.map((item, i) => (
+                                            <li
+                                                key={i}
+                                                className="text-[#2C2C2C] font-normal text-[16px] md:text-[18px] leading-[28px] md:leading-[32px] mb-[8px]"
+                                                dangerouslySetInnerHTML={{ __html: item }}
+                                            />
+                                        ))}
+                                    </ul>
                                 );
                             case "image":
                                 return (
@@ -83,6 +93,7 @@ export default async function BlogPost({ params }) {
                                         <Image
                                             src={section.src}
                                             alt={section.alt}
+                                            fill
                                             unoptimized
                                             className="w-full h-full object-cover"
                                         />
