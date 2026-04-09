@@ -45,12 +45,12 @@ export default async function BlogPost({ params }) {
                         {blog.subtitle}
                     </p>
 
-                    <div className="w-full aspect-[18/9] relative overflow-hidden rounded-[16px] mb-[40px]">
+                    <div className="w-full aspect-[12/9] md:aspect-[18/9] relative overflow-hidden rounded-[16px] mb-[40px] bg-white">
                         <Image
                             src={blog.image}
                             alt={blog.title}
                             unoptimized
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover md:object-contain"
                         />
                     </div>
 
@@ -88,14 +88,14 @@ export default async function BlogPost({ params }) {
                                 return (
                                     <div
                                         key={index}
-                                        className="w-full aspect-[18/9] relative overflow-hidden rounded-[12px] my-[40px]"
+                                        className="w-full aspect-[18/9] relative overflow-hidden rounded-[12px] my-[40px] bg-[#f9f9f9]"
                                     >
                                         <Image
                                             src={section.src}
                                             alt={section.alt}
                                             fill
                                             unoptimized
-                                            className="w-full h-full object-cover"
+                                            className="w-full h-full object-contain"
                                         />
                                     </div>
                                 );

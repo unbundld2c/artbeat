@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const teamMembers = [
   {
-    name: "Supriya Iyer",
+    name: "Supriya Iyengar",
     role: "Founder, CEO",
     imgSrc: assets.TeamMember1,
     linkedin: "https://www.linkedin.com/in/supriyaiyengar/",
