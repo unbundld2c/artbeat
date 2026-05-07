@@ -326,6 +326,36 @@ export const blogsData = [
         text: "Can we all take a moment to just listen? My brother was right: <b>Zero is something.</b> In fact, it’s the only place where you can truly begin."
       }
     ]
+  },
+  {
+    id: 6,
+    slug: "my-first-day-in-the-artbeat-classroom",
+    title: "My First Day in the Artbeat Classroom",
+    date: "May 7, 2026",
+    image: assets.FirstDay1,
+    description: "",
+    content: [
+      {
+        type: "image",
+        src: assets.FirstDay2,
+        alt: "My First Day in the Artbeat Classroom - Page 2"
+      },
+      {
+        type: "image",
+        src: assets.FirstDay3,
+        alt: "My First Day in the Artbeat Classroom - Page 3"
+      },
+      {
+        type: "image",
+        src: assets.FirstDay4,
+        alt: "My First Day in the Artbeat Classroom - Page 4"
+      },
+      {
+        type: "image",
+        src: assets.FirstDay5,
+        alt: "My First Day in the Artbeat Classroom - Page 5"
+      }
+    ]
   }
 ];
 

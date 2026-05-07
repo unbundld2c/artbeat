@@ -110,6 +110,11 @@ import Advisor3 from "./advisor3.webp";
 import TechAdvisor1 from "./techAdvisor1.webp";
 import TechAdvisor2 from "./techAdvisor2.webp";
 import KeyNoteLogo from "./keynote-logo.webp";
+import FirstDay1 from "./first-day1.webp";
+import FirstDay2 from "./first-day2.webp";
+import FirstDay3 from "./first-day3.webp";
+import FirstDay4 from "./first-day4.webp";
+import FirstDay5 from "./first-day5.webp";
 
 export const assets = {
   logo,
@@ -224,4 +229,9 @@ export const assets = {
   TechAdvisor1,
   TechAdvisor2,
   KeyNoteLogo,
+  FirstDay1,
+  FirstDay2,
+  FirstDay3,
+  FirstDay4,
+  FirstDay5,
 };

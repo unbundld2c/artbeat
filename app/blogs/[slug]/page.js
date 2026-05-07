@@ -88,14 +88,15 @@ export default async function BlogPost({ params }) {
                                 return (
                                     <div
                                         key={index}
-                                        className="w-full aspect-[18/9] relative overflow-hidden rounded-[12px] my-[40px] bg-[#f9f9f9]"
+                                        className="w-full max-w-[700px] mx-auto relative overflow-hidden rounded-[12px] my-[24px] md:my-[40px] bg-[#f9f9f9]"
                                     >
                                         <Image
                                             src={section.src}
                                             alt={section.alt}
-                                            fill
+                                            width={700}
+                                            height={900}
                                             unoptimized
-                                            className="w-full h-full object-contain"
+                                            className="w-full h-auto object-contain"
                                         />
                                     </div>
                                 );
